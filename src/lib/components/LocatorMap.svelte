@@ -44,13 +44,15 @@ USAGE EXAMPLE:
   let map = $state(null);
 
   // Tracks the style URL currently applied to the map, to avoid redundant setStyle calls
-  let appliedStyleUrl = styleUrl;
+  let appliedStyleUrl = $state(null);
 
   // Build a descriptive label for screen readers from the caption or coordinates
   const ariaLabel = $derived(
     caption
       ? `Map: ${caption}`
-      : `Locator map centered at ${latitude.toFixed(4)}, ${longitude.toFixed(4)}`
+      : Number.isFinite(latitude) && Number.isFinite(longitude)
+        ? `Locator map centered at ${latitude.toFixed(4)}, ${longitude.toFixed(4)}`
+        : 'Locator map'
   );
 
   /** Adds the blue dot GeoJSON layer at the map center. */

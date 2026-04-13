@@ -121,9 +121,9 @@ function getTopCauses(crashes, limit = 3) {
     .map(([cause, count]) => ({ cause, count }));
 }
 
-const [topBorough, injuries] = getBoroughWithMostInjuries(data.crashes);
-const topCauses = getTopCauses(data.crashes, 3);
-const { totalInjured, totalKilled, total } = getTotalCyclistCasualties(data.crashes);
+const [topBorough, injuries] = $derived.by(() => getBoroughWithMostInjuries(data.crashes));
+const topCauses = $derived.by(() => getTopCauses(data.crashes, 3));
+const { totalInjured, totalKilled, total } = $derived.by(() => getTotalCyclistCasualties(data.crashes));
 
 </script>
 

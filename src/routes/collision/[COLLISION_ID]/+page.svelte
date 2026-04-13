@@ -55,14 +55,16 @@
 >
 
 {#snippet graphic()}
-    <LocatorMap
-      longitude={lng}
-      latitude={lat}
-      zoom={12}
-      dot={true}
-      width={200}
-      credit=" "
-    />
+    {#if Number.isFinite(lat) && Number.isFinite(lng)}
+      <LocatorMap
+        longitude={lng}
+        latitude={lat}
+        zoom={12}
+        dot={true}
+        width={200}
+        credit=" "
+      />
+    {/if}
   {/snippet}
 
   <Dashboard>
@@ -79,7 +81,7 @@
 
 <div class="container">
   <div class="card-grid">
-    {#each crash.violations as violation (violation.violationId)}
+    {#each (crash.violations ?? []) as violation (violation.violationId)}
       <Card>
         <p class="card-date">{formatDate(violation.date)}</p>
         <p>{violation.specificDescription || 'No description available'}</p>
