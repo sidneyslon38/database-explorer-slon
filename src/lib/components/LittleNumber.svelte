@@ -23,7 +23,7 @@
 
   .number {
     display: block;
-    font-size: var(--font-size-display);
+    font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--color-white);
     line-height: var(--leading-heading);

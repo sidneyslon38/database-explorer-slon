@@ -179,7 +179,7 @@ USAGE EXAMPLE:
     width: 100%;
     aspect-ratio: 1 / 1;
     display: block;
-    border: var(--border-width-accent) solid var(--color-accent);
+    border: var(--border-width-accent) solid var(--db-color-accent);
   }
 
   .caption-container {

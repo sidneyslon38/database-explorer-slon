@@ -21,6 +21,9 @@
   --color-border: #e0e0e0;
   --color-shadow: rgba(0, 0, 0, 0.1);
 
+  /* Database Explorer Colors */
+  --db-color-accent: #770808; /* CUNY Blue (PMS 286) */
+
   /* CUNY Blue Gradient Colors */
   --color-cuny-blue-dark: #002266;
   --color-cuny-blue-light: #0066cc;
@@ -170,13 +173,13 @@ p {
 }
 
 a {
-  color: var(--color-dark);
+  color: var(--db-color-accent);
   text-decoration: underline;
   transition: var(--transition-color);
 }
 
 a:hover {
-  color: var(--color-accent);
+  color: var(--db-color-accent);
 }
 
 img {

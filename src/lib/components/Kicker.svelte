@@ -24,7 +24,7 @@ USAGE EXAMPLE:
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
-    color: var(--color-accent);
+    color: var(--db-color-accent);
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-wider);
     margin: 0 0 var(--spacing-xxs);

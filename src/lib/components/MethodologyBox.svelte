@@ -19,7 +19,7 @@ of an article.
   @use '../styles' as *;
 
   .methodology-box {
-    border-top: var(--border-width-accent) solid var(--color-accent);
+    border-top: var(--border-width-accent) solid var(--db-color-accent);
     background-color: var(--color-light-gray);
     padding: var(--spacing-md);
     margin-top: var(--spacing-xl);

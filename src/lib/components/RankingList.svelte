@@ -26,7 +26,7 @@ RankingList.svelte — A container for RankingCard items with an optional title.
   .ranking-list-title {
     margin: 0;
     padding: var(--spacing-sm, 0.75rem) var(--spacing-md, 1rem);
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;

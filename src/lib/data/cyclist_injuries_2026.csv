@@ -1,0 +1,784 @@
+CRASH DATE,CRASH TIME,BOROUGH,ZIP CODE,LOCATION,NUMBER OF PERSONS INJURED,NUMBER OF PERSONS KILLED,NUMBER OF PEDESTRIANS INJURED,NUMBER OF PEDESTRIANS KILLED,NUMBER OF CYCLIST INJURED,NUMBER OF CYCLIST KILLED,NUMBER OF MOTORIST INJURED,NUMBER OF MOTORIST KILLED,CONTRIBUTING FACTOR VEHICLE 1,COLLISION_ID,VEHICLE TYPE CODE 1,VEHICLE TYPE CODE 2
+02/17/2026,16:05,Bronx,10452,"    (40.845177, -73.91416)",1,0,0,0,1,0,0,0,Aggressive Driving/Road Rage,4882438,Bike,Sedan
+02/22/2026,04:17,Brooklyn,11206,"    (40.696987, -73.93523)",1,0,0,0,1,0,0,0,Aggressive Driving/Road Rage,4880916,Bike,
+03/10/2026,17:50,Brooklyn,11206,"    (40.697834, -73.93676)",1,0,0,0,1,0,0,0,Aggressive Driving/Road Rage,4884486,Pick-up Truck,Bike
+01/22/2026,20:28,Manhattan,10035,"    (40.803425, -73.93308)",1,0,0,0,1,0,0,0,Aggressive Driving/Road Rage,4873697,Sedan,Bike
+01/09/2026,21:17,Manhattan,10002,"    (40.717724, -73.98576)",1,0,0,0,1,0,0,0,Aggressive Driving/Road Rage,4870592,Station Wagon/Sport Utility Vehicle,E-Bike
+01/10/2026,09:25,Queens,11102,"    (40.773388, -73.92899)",1,0,0,0,1,0,0,0,Aggressive Driving/Road Rage,4872431,Bike,Sedan
+04/07/2026,18:34,Bronx,10466,"    (40.89325, -73.854065)",1,0,0,0,1,0,0,0,Alcohol Involvement,4890469,Bike,
+03/12/2026,01:22,Manhattan,10028,"    (40.77493, -73.9508)",1,0,0,0,1,0,0,0,Alcohol Involvement,4884812,E-Bike,Ambulance
+04/04/2026,02:18,Queens,11368,"    (40.749504, -73.86506)",1,0,0,0,1,0,0,0,Alcohol Involvement,4890006,Bike,Sedan
+01/20/2026,17:43,Brooklyn,11233,"    (40.67664, -73.92147)",1,0,0,0,1,0,0,0,Backing Unsafely,4872986,Bike,
+03/17/2026,14:30,Brooklyn,11220,"    (40.63999, -74.015236)",1,0,0,0,1,0,0,0,Backing Unsafely,4886391,Station Wagon/Sport Utility Vehicle,E-Bike
+01/10/2026,19:46,Manhattan,10038,"    (40.711502, -74.00677)",1,0,0,0,1,0,0,0,Backing Unsafely,4870848,Box Truck,Bike
+02/04/2026,21:43,Manhattan,10019,"    (40.76479, -73.98428)",1,0,0,0,1,0,0,0,Backing Unsafely,4877311,Sedan,Bike
+03/13/2026,21:30,Manhattan,10016,"    (40.748436, -73.98456)",1,0,0,0,1,0,0,0,Backing Unsafely,4885120,Station Wagon/Sport Utility Vehicle,Bike
+01/15/2026,15:56,Brooklyn,11215,"    (40.669247, -73.98293)",2,0,1,0,1,0,0,0,Brakes Defective,4872045,E-Bike,
+03/24/2026,11:35,Queens,11101,"    (40.742874, -73.93394)",2,0,0,0,1,0,1,0,Brakes Defective,4887474,Bike,Sedan
+03/25/2026,23:33,Brooklyn,11219,"    (40.63408, -73.99507)",1,0,0,0,1,0,0,0,Cell Phone (hand-Held),4887609,Sedan,Bike
+04/07/2026,20:39,Bronx,10475,"    (40.871586, -73.82524)",1,0,0,0,1,0,0,0,Cell Phone (hands-free),4890512,Sedan,Bike
+01/01/2026,08:08,Bronx,10457,"    (40.848255, -73.909744)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870953,Bike,
+02/03/2026,21:35,Bronx,,"    (40.820267, -73.929756)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877379,Bike,Tractor Truck Diesel
+02/20/2026,00:00,Bronx,,"    (40.86258, -73.92538)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4880447,Bike,
+01/06/2026,18:21,Bronx,10462,"    (40.848602, -73.86119)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4869937,E-Bike,Sedan
+02/28/2026,12:00,Bronx,10459,"    (40.81632, -73.89621)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882176,E-Bike,
+04/02/2026,16:50,Bronx,10467,"    (40.885693, -73.86164)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889716,E-Bike,Sedan
+04/03/2026,19:00,Bronx,10473,"    (40.82299, -73.867805)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889933,E-Bike,
+03/28/2026,09:47,Bronx,10456,"    (40.832188, -73.912926)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889714,Pick-up Truck,E-Bike
+01/22/2026,19:31,Bronx,10454,"    (40.807186, -73.92428)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878511,Sedan,E-Bike
+03/10/2026,20:40,Bronx,10454,"    (40.80911, -73.92289)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884427,Sedan,E-Bike
+03/31/2026,00:00,Bronx,10459,"    (40.820972, -73.89284)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4888989,Sedan,Bike
+02/12/2026,07:55,Bronx,,"    (40.81108, -73.92729)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878514,Sedan,Bike
+04/01/2026,00:49,Bronx,,"    (40.826275, -73.8597)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889004,Sedan,Bike
+03/09/2026,21:16,Bronx,10454,"    (40.80911, -73.92289)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884252,Station Wagon/Sport Utility Vehicle,Bike
+03/12/2026,14:01,Bronx,10462,"    (40.830963, -73.85118)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885021,Station Wagon/Sport Utility Vehicle,Bike
+03/14/2026,04:10,Bronx,10462,"    (40.852413, -73.86777)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885258,Station Wagon/Sport Utility Vehicle,Bike
+03/15/2026,17:10,Bronx,10458,"    (40.864517, -73.89398)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885420,Station Wagon/Sport Utility Vehicle,Bike
+01/13/2026,09:45,Brooklyn,11215,"    (40.672768, -73.98671)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871751,Bike,Sedan
+02/16/2026,16:30,Brooklyn,11249,"    (40.69819, -73.9619)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4880492,Bike,
+02/27/2026,09:45,Brooklyn,11211,"    (40.711483, -73.945595)",3,0,0,0,1,0,2,0,Driver Inattention/Distraction,4881792,Bike,Station Wagon/Sport Utility Vehicle
+03/14/2026,20:35,Brooklyn,11238,"    (40.675926, -73.95607)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885092,Bike,Station Wagon/Sport Utility Vehicle
+03/20/2026,09:00,Brooklyn,11205,"    (40.698677, -73.958855)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886605,Bike,Station Wagon/Sport Utility Vehicle
+03/20/2026,21:00,Brooklyn,11219,"    (40.636456, -74.00053)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886453,Bike,
+03/22/2026,20:35,Brooklyn,11233,"    (40.68405, -73.93213)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886960,Bike,Sedan
+03/23/2026,21:30,Brooklyn,11203,"    (40.65194, -73.92939)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887532,Bike,Station Wagon/Sport Utility Vehicle
+03/25/2026,16:50,Brooklyn,11226,"    (40.64269, -73.957634)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887742,Bike,Sedan
+03/28/2026,16:15,Brooklyn,11208,"    (40.684647, -73.86869)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4888107,Bike,
+01/06/2026,16:54,Brooklyn,11238,"    (40.68315, -73.95768)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4874525,Bus,Bike
+02/10/2026,09:00,Brooklyn,11211,"    (40.70697, -73.95474)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878832,Bus,Bike
+03/11/2026,15:50,Brooklyn,11204,"    (40.63104, -73.98551)",0,1,0,0,0,1,0,0,Driver Inattention/Distraction,4884606,Cement Truck,E-Bike
+03/30/2026,11:23,Brooklyn,11211,"    (40.711166, -73.94889)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889648,Convertible,Bike
+01/17/2026,17:55,Brooklyn,11212,"    (40.664944, -73.922646)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872174,E-Bike,
+02/01/2026,09:00,Brooklyn,11226,"    (40.647526, -73.96436)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4876458,E-Bike,
+03/23/2026,23:56,Brooklyn,11230,"    (40.621304, -73.96145)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887323,E-Bike,
+02/28/2026,19:50,Brooklyn,,"    (40.67753, -73.96371)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883224,E-Bike,Station Wagon/Sport Utility Vehicle
+01/12/2026,00:00,Brooklyn,11234,"    (40.62356, -73.92737)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871240,Pick-up Truck,E-Bike
+03/31/2026,14:01,Brooklyn,11221,"    (40.693863, -73.9297)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889038,Pick-up Truck,Bike
+01/10/2026,20:06,Brooklyn,11212,"    (40.66077, -73.91974)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870670,Sedan,Bike
+01/04/2026,17:10,Brooklyn,11218,"    (40.653667, -73.97316)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4869468,Sedan,Bike
+01/08/2026,21:30,Brooklyn,11203,"    (40.65728, -73.94736)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870306,Sedan,Bike
+01/09/2026,17:39,Brooklyn,11217,"    (40.6805, -73.97755)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870434,Sedan,Bike
+01/20/2026,19:11,Brooklyn,11213,"    (40.668507, -73.925606)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873390,Sedan,Bike
+01/30/2026,08:11,Brooklyn,11219,"    (40.631504, -74.00295)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4874890,Sedan,Bike
+02/09/2026,00:00,Brooklyn,11221,"    (40.689407, -73.91395)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878164,Sedan,Bike
+03/13/2026,00:18,Brooklyn,11238,"    (40.673294, -73.95702)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885437,Sedan,Bike
+03/13/2026,00:00,Brooklyn,11217,"    (40.672714, -73.97088)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884926,Sedan,Bike
+03/13/2026,22:17,Brooklyn,11213,"    (40.668648, -73.928345)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885054,Sedan,Bike
+03/19/2026,15:14,Brooklyn,11223,"    (40.604706, -73.968994)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886270,Sedan,Bike
+03/20/2026,00:00,Brooklyn,11237,"    (40.703667, -73.926895)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886707,Sedan,Bike
+03/31/2026,20:13,Brooklyn,11238,"    (40.685764, -73.973076)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889177,Sedan,E-Bike
+04/01/2026,14:30,Brooklyn,11201,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889469,Sedan,E-Bike
+01/09/2026,06:50,Brooklyn,11221,"    (40.68984, -73.914696)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870426,Station Wagon/Sport Utility Vehicle,E-Bike
+01/13/2026,19:49,Brooklyn,11207,"    (40.670937, -73.90229)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871673,Station Wagon/Sport Utility Vehicle,Bike
+01/16/2026,16:30,Brooklyn,11229,"    (40.598404, -73.94634)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871967,Station Wagon/Sport Utility Vehicle,Bike
+01/16/2026,15:54,Brooklyn,11214,"    (40.597927, -73.98719)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872008,Station Wagon/Sport Utility Vehicle,Bike
+01/24/2026,16:20,Brooklyn,11225,"    (40.66309, -73.96239)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873716,Station Wagon/Sport Utility Vehicle,E-Bike
+01/30/2026,14:30,Brooklyn,11231,"    (40.679314, -73.98998)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4875091,Station Wagon/Sport Utility Vehicle,Bike
+02/16/2026,14:45,Brooklyn,11217,"    (40.684914, -73.97808)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879602,Station Wagon/Sport Utility Vehicle,Bike
+02/16/2026,07:00,Brooklyn,11219,"    (40.63388, -73.99494)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879596,Station Wagon/Sport Utility Vehicle,Bike
+02/17/2026,13:30,Brooklyn,11222,"    (40.726, -73.95003)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879852,Station Wagon/Sport Utility Vehicle,Bike
+02/18/2026,12:08,Brooklyn,11211,"    (40.70793, -73.95855)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4880600,Station Wagon/Sport Utility Vehicle,Bike
+02/28/2026,00:00,Brooklyn,11211,"    (40.712612, -73.949135)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882192,Station Wagon/Sport Utility Vehicle,Bike
+03/03/2026,21:25,Brooklyn,11228,"    (40.621033, -74.01026)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882861,Station Wagon/Sport Utility Vehicle,Bike
+03/06/2026,16:00,Brooklyn,11207,"    (40.65892, -73.88982)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883825,Station Wagon/Sport Utility Vehicle,Bike
+03/08/2026,18:45,Brooklyn,11204,"    (40.61424, -73.988235)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883923,Station Wagon/Sport Utility Vehicle,Bike
+03/12/2026,09:34,Brooklyn,11236,"    (40.64891, -73.892555)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884810,Station Wagon/Sport Utility Vehicle,Bike
+03/16/2026,07:55,Brooklyn,11229,"    (40.61139, -73.94412)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885518,Station Wagon/Sport Utility Vehicle,Bike
+03/21/2026,10:39,Brooklyn,11224,"    (40.579163, -73.983086)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886598,Station Wagon/Sport Utility Vehicle,E-Bike
+03/23/2026,19:38,Brooklyn,11222,"    (40.73027, -73.95347)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887463,Station Wagon/Sport Utility Vehicle,Bike
+03/14/2026,16:04,Brooklyn,11214,"    (40.604996, -73.99427)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889481,Station Wagon/Sport Utility Vehicle,Bike
+04/01/2026,13:05,Brooklyn,11206,"    (40.699783, -73.94051)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889221,Station Wagon/Sport Utility Vehicle,E-Bike
+04/06/2026,15:55,Brooklyn,11203,"    (40.65247, -73.94509)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890320,Station Wagon/Sport Utility Vehicle,Bike
+03/09/2026,12:00,Brooklyn,,"    (40.699898, -73.98624)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884090,Station Wagon/Sport Utility Vehicle,Bike
+01/15/2026,00:15,Brooklyn,11238,"    (40.677837, -73.96116)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871837,Taxi,E-Bike
+03/18/2026,10:35,Brooklyn,11238,"    (40.68177, -73.96753)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887104,Van,Bike
+01/09/2026,15:57,Manhattan,10027,"    (40.81368, -73.95629)",2,0,0,0,2,0,0,0,Driver Inattention/Distraction,4870425,Bike,Station Wagon/Sport Utility Vehicle
+01/12/2026,08:50,Manhattan,10002,"    (40.721428, -73.98431)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871202,Bike,Bus
+01/17/2026,11:30,Manhattan,10001,"    (40.750904, -73.99812)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872168,Bike,Sedan
+01/19/2026,14:52,Manhattan,10065,"    (40.767185, -73.96247)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872754,Bike,Sedan
+01/20/2026,09:03,Manhattan,10017,"    (40.75262, -73.96707)",2,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872876,Bike,Standing S
+01/20/2026,20:19,Manhattan,10010,"    (40.73921, -73.983604)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873807,Bike,Station Wagon/Sport Utility Vehicle
+02/04/2026,03:42,Manhattan,10036,"    (40.762184, -73.993614)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878082,Bike,Sedan
+02/06/2026,23:30,Manhattan,10037,"    (40.812202, -73.94225)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877259,Bike,Garbage or Refuse
+02/12/2026,14:00,Manhattan,10012,"    (40.72419, -74.00207)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879309,Bike,Box Truck
+03/17/2026,15:40,Manhattan,10031,"    (40.821705, -73.956795)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885813,Bike,Station Wagon/Sport Utility Vehicle
+03/17/2026,05:26,Manhattan,10026,"    (40.80123, -73.957695)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886169,Bike,Taxi
+03/20/2026,15:00,Manhattan,10013,"    (40.71614, -73.99808)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886774,Bike,Sedan
+03/23/2026,19:30,Manhattan,10025,"    (40.798508, -73.967125)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887161,Bike,Sedan
+02/05/2026,15:04,Manhattan,,"    (40.74639, -73.97764)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878199,Bike,Box Truck
+03/20/2026,11:00,Manhattan,,"    (40.710247, -73.95839)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886957,Bike,
+03/06/2026,06:56,Manhattan,10011,"    (40.741055, -73.99786)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883745,Box Truck,Bike
+03/11/2026,15:31,Manhattan,10021,"    (40.768486, -73.9555)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884603,Box Truck,Bike
+03/17/2026,12:51,Manhattan,10012,"    (40.727634, -74.00084)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885910,Box Truck,Bike
+02/17/2026,12:25,Manhattan,10001,"    (40.75099, -73.99062)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879653,Bus,Bike
+03/19/2026,12:20,Manhattan,10001,"    (40.749195, -73.98673)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886622,Commercial,Bike
+03/28/2026,03:00,Manhattan,,"    (40.76417, -73.98473)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890459,,Bike
+01/13/2026,22:23,Manhattan,10017,"    (40.750763, -73.96843)",0,1,0,0,0,1,0,0,Driver Inattention/Distraction,4871463,E-Bike,
+01/07/2026,06:36,Manhattan,10035,"    (40.804256, -73.93671)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4869996,E-Bike,Sedan
+02/03/2026,17:15,Manhattan,10017,"    (40.753483, -73.98089)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4876220,E-Bike,Taxi
+02/08/2026,11:27,Manhattan,10023,"    (40.78113, -73.98353)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877698,E-Bike,Sedan
+02/18/2026,23:00,Manhattan,10025,"    (40.793396, -73.976746)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879961,E-Bike,
+04/07/2026,09:20,Manhattan,10003,"    (40.734837, -73.983116)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890306,E-Bike,Sedan
+01/02/2026,07:14,Manhattan,10003,"    (40.73602, -73.98227)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4869902,Pick-up Truck,Bike
+02/11/2026,11:40,Manhattan,10016,"    (40.745796, -73.98228)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878312,,Bike
+01/01/2026,18:58,Manhattan,10013,"    (40.72584, -74.00756)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4868974,Sedan,Bike
+01/08/2026,17:39,Manhattan,10027,"    (40.80993, -73.951584)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870267,Sedan,Bike
+01/13/2026,11:25,Manhattan,10001,"    (40.752644, -74.00427)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871385,Sedan,Bike
+01/13/2026,17:40,Manhattan,10003,"    (40.73003, -73.99108)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871631,Sedan,Bike
+01/16/2026,15:07,Manhattan,10029,"    (40.79922, -73.94485)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872352,Sedan,Bike
+01/22/2026,11:31,Manhattan,10016,"    (40.74775, -73.98085)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873404,Sedan,Bike
+01/24/2026,15:00,Manhattan,10003,"    (40.731018, -73.98591)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4874143,Sedan,Bike
+01/14/2026,17:10,Manhattan,10002,"    (40.713516, -73.99538)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4874623,Sedan,Bike
+02/13/2026,10:05,Manhattan,10003,"    (40.724274, -73.99082)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879011,Sedan,Bike
+02/15/2026,22:30,Manhattan,10031,"    (40.825954, -73.94336)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879389,Sedan,Bike
+02/26/2026,15:25,Manhattan,10001,"    (40.751053, -73.99033)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4881981,Sedan,Bike
+02/28/2026,16:53,Manhattan,10016,"    (40.751816, -73.98113)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882710,Sedan,Bike
+03/05/2026,10:15,Manhattan,10023,"    (40.78056, -73.98021)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883174,Sedan,Bike
+03/07/2026,14:56,Manhattan,10065,"    (40.760857, -73.96107)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883599,Sedan,Bike
+03/12/2026,16:28,Manhattan,10003,"    (40.731937, -73.99532)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885238,Sedan,Bike
+03/14/2026,19:49,Manhattan,10036,"    (40.761555, -73.99407)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885717,Sedan,Bike
+03/23/2026,12:05,Manhattan,10128,"    (40.782593, -73.948074)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887174,Sedan,Bike
+03/26/2026,10:02,Manhattan,10001,"    (40.749054, -73.99575)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887723,Sedan,Bike
+03/25/2026,21:56,Manhattan,10019,"    (40.764507, -73.985794)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887585,Sedan,Bike
+04/01/2026,17:40,Manhattan,10003,"    (40.738808, -73.990425)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889302,Sedan,Bike
+01/09/2026,23:46,Manhattan,10022,"    (40.758327, -73.96893)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871019,Station Wagon/Sport Utility Vehicle,Bike
+01/11/2026,11:50,Manhattan,10029,"    (40.792873, -73.943726)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871091,Station Wagon/Sport Utility Vehicle,Bike
+01/22/2026,17:00,Manhattan,10035,"    (40.804604, -73.93634)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873410,Station Wagon/Sport Utility Vehicle,E-Bike
+01/23/2026,13:02,Manhattan,10031,"    (40.8176, -73.953186)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873549,Station Wagon/Sport Utility Vehicle,E-Bike
+01/23/2026,13:07,Manhattan,10009,"    (40.734962, -73.97979)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4873867,Station Wagon/Sport Utility Vehicle,Bike
+01/29/2026,10:44,Manhattan,10001,"    (40.75011, -73.99658)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4874995,Station Wagon/Sport Utility Vehicle,Bike
+02/15/2026,20:28,Manhattan,10011,"    (40.73988, -73.99871)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879459,Station Wagon/Sport Utility Vehicle,Bike
+02/16/2026,18:50,Manhattan,10012,"    (40.724243, -74.004105)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879540,Station Wagon/Sport Utility Vehicle,E-Bike
+02/17/2026,14:51,Manhattan,10027,"    (40.81636, -73.95409)",3,0,2,0,1,0,0,0,Driver Inattention/Distraction,4879849,Station Wagon/Sport Utility Vehicle,E-Bike
+03/01/2026,15:32,Manhattan,10128,"    (40.778484, -73.94525)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882419,Station Wagon/Sport Utility Vehicle,Bike
+03/03/2026,17:18,Manhattan,10028,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882773,Station Wagon/Sport Utility Vehicle,Bike
+03/09/2026,16:54,Manhattan,10035,"    (40.798935, -73.93636)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884227,Station Wagon/Sport Utility Vehicle,E-Bike
+03/09/2026,15:10,Manhattan,10001,"    (40.746582, -73.99755)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884363,Station Wagon/Sport Utility Vehicle,Bike
+03/22/2026,12:50,Manhattan,10002,"    (40.719124, -73.990845)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887014,Station Wagon/Sport Utility Vehicle,Bike
+03/24/2026,20:15,Manhattan,10032,"    (40.84141, -73.94284)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887583,Station Wagon/Sport Utility Vehicle,E-Bike
+03/24/2026,22:42,Manhattan,10033,"    (40.846912, -73.93823)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887591,Station Wagon/Sport Utility Vehicle,Bike
+03/28/2026,12:31,Manhattan,10037,"    (40.811565, -73.94272)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4888191,Station Wagon/Sport Utility Vehicle,E-Bike
+03/31/2026,16:45,Manhattan,10033,"    (40.843567, -73.93421)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4888915,Station Wagon/Sport Utility Vehicle,Bike
+04/03/2026,06:25,Manhattan,10026,"    (40.80587, -73.952805)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889985,Station Wagon/Sport Utility Vehicle,E-Bike
+01/09/2026,10:55,Manhattan,10016,"    (40.748985, -73.97996)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870993,Taxi,Bike
+02/05/2026,14:00,Manhattan,10006,"    (40.711033, -74.014534)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877605,Taxi,Bike
+02/08/2026,23:00,Manhattan,10016,"    (40.74388, -73.98156)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877623,Taxi,Bike
+02/09/2026,14:29,Manhattan,10023,"    (40.773033, -73.9822)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878090,Taxi,Bike
+02/20/2026,00:59,Manhattan,10010,"    (40.73948, -73.9829)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4880657,Taxi,E-Bike
+02/15/2026,23:15,Manhattan,10009,"    (40.724575, -73.987495)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4880467,Taxi,Bike
+03/03/2026,15:44,Manhattan,10036,"    (40.759033, -73.984535)",2,0,0,0,1,0,1,0,Driver Inattention/Distraction,4882731,Taxi,Bike
+03/04/2026,11:30,Manhattan,10036,"    (40.75876, -73.98473)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883359,Taxi,Bike
+03/11/2026,08:27,Manhattan,10001,"    (40.749104, -73.992004)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884750,Taxi,E-Bike
+03/21/2026,22:23,Manhattan,10024,"    (40.78065, -73.97642)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886709,Taxi,Bike
+02/02/2026,15:28,Manhattan,10035,"    (40.804375, -73.93742)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4875810,Van,Bike
+02/12/2026,11:50,Manhattan,10011,"    (40.73875, -74.00053)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879272,Van,Bike
+01/06/2026,05:45,Queens,11385,"    (40.69622, -73.89987)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871746,Bike,
+01/17/2026,17:20,Queens,11432,"    (40.703, -73.80082)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872155,Bike,Sedan
+01/13/2026,18:35,Queens,11423,"    (40.712536, -73.76895)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872156,Bike,Sedan
+02/06/2026,18:00,Queens,11101,"    (40.752094, -73.92596)",2,0,0,0,2,0,0,0,Driver Inattention/Distraction,4877912,Bike,Bike
+02/07/2026,18:50,Queens,11692,"    (40.59847, -73.794754)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877332,Bike,Sedan
+03/01/2026,14:21,Queens,11354,"    (40.772346, -73.82468)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882368,Bike,Sedan
+03/24/2026,20:56,Queens,11435,"    (40.703026, -73.80844)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887415,Bike,Station Wagon/Sport Utility Vehicle
+03/29/2026,02:56,Queens,11432,"    (40.705086, -73.80109)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4888276,Bike,
+03/31/2026,22:59,Queens,11104,"    (40.747433, -73.92547)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889053,Bike,Station Wagon/Sport Utility Vehicle
+04/02/2026,11:58,Queens,11417,"    (40.679806, -73.854225)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889298,Bike,Station Wagon/Sport Utility Vehicle
+04/07/2026,00:00,Queens,11368,"    (40.740143, -73.857956)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890806,Bike,
+02/02/2026,23:50,Queens,,"    (40.712673, -73.801384)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4876082,Bike,Sedan
+02/13/2026,21:28,Queens,,"    (40.69089, -73.94252)",2,0,1,0,1,0,0,0,Driver Inattention/Distraction,4878887,Bike,
+03/08/2026,23:15,Queens,,"    (40.677864, -73.93862)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4884274,Bike,
+04/02/2026,21:30,Queens,,"    (40.68039, -73.949554)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889388,Bike,Station Wagon/Sport Utility Vehicle
+04/07/2026,17:50,Queens,11354,"    (40.768555, -73.81047)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890593,Box Truck,E-Bike
+01/07/2026,16:44,Queens,11104,"    (40.74348, -73.92148)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870182,E-Bike,Sedan
+01/14/2026,12:50,Queens,11379,"    (40.720158, -73.88966)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871918,E-Bike,
+02/03/2026,12:00,Queens,11385,"    (40.710323, -73.89936)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4876816,E-Bike,
+03/16/2026,00:00,Queens,11364,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886045,E-Bike,
+03/31/2026,16:47,Queens,11106,"    (40.760925, -73.926476)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889048,E-Bike,
+04/04/2026,15:50,Queens,11378,"    (40.72428, -73.89844)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889959,E-Bike,E-Bike
+03/20/2026,18:30,Queens,,"    (40.69253, -73.95985)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886751,E-Bike,Sedan
+03/13/2026,06:45,Queens,,"    (40.71583, -73.81636)",2,0,1,0,1,0,0,0,Driver Inattention/Distraction,4886504,E-Bike,
+01/05/2026,14:13,Queens,11423,"    (40.719715, -73.76225)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4870033,Sedan,Bike
+01/13/2026,07:30,Queens,11385,"    (40.70297, -73.86824)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871926,Sedan,Bike
+01/16/2026,21:09,Queens,11367,"    (40.72739, -73.82212)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4872005,Sedan,Bike
+02/06/2026,18:38,Queens,11361,"    (40.761684, -73.76031)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4877883,Sedan,Bike
+02/17/2026,09:31,Queens,11374,"    (40.729576, -73.860825)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4879839,Sedan,Bike
+03/03/2026,19:40,Queens,11377,"    (40.745476, -73.90445)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882843,Sedan,Bike
+03/06/2026,08:00,Queens,11691,"    (40.607777, -73.75244)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883509,Sedan,Bike
+03/20/2026,14:46,Queens,11104,"    (40.74348, -73.92148)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886478,Sedan,Bike
+03/20/2026,14:07,Queens,11358,"    (40.767075, -73.791725)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887062,Sedan,Bike
+03/21/2026,21:59,Queens,11377,"    (40.739967, -73.89423)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4886641,Sedan,Bike
+03/31/2026,08:34,Queens,11372,"    (40.75413, -73.88686)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4888814,Sedan,Bike
+04/02/2026,19:50,Queens,11378,"    (40.728046, -73.91479)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889354,Sedan,Bike
+03/31/2026,17:27,Queens,11373,"    (40.747864, -73.87398)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4889513,Sedan,Bike
+01/04/2026,22:30,Queens,,"    (40.747246, -73.88765)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4871014,Sedan,Bike
+03/22/2026,13:51,Queens,,"    (40.671844, -73.73306)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887381,Sedan,Bike
+04/07/2026,19:15,Queens,,"    (40.742905, -73.8966)",2,0,0,0,2,0,0,0,Driver Inattention/Distraction,4890409,Sedan,E-Bike
+04/07/2026,16:12,Queens,,"    (40.70467, -73.80565)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890435,Sedan,Bike
+01/19/2026,19:30,Queens,11370,"    (40.75661, -73.89598)",2,0,0,0,2,0,0,0,Driver Inattention/Distraction,4872769,Station Wagon/Sport Utility Vehicle,Bike
+02/22/2026,19:58,Queens,11435,"    (40.69806, -73.80986)",2,0,0,0,1,0,1,0,Driver Inattention/Distraction,4880728,Station Wagon/Sport Utility Vehicle,Bike
+02/28/2026,22:28,Queens,11419,"    (40.695854, -73.81892)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882328,Station Wagon/Sport Utility Vehicle,Bike
+03/04/2026,16:49,Queens,11434,"    (40.679874, -73.77423)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4883128,Station Wagon/Sport Utility Vehicle,Bike
+03/14/2026,10:10,Queens,11691,"    (40.602802, -73.74878)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885198,Station Wagon/Sport Utility Vehicle,Bike
+04/03/2026,13:04,Queens,11372,"    (40.74872, -73.8737)",2,0,0,0,2,0,0,0,Driver Inattention/Distraction,4890008,Station Wagon/Sport Utility Vehicle,Bike
+03/01/2026,15:25,Queens,,"    (40.762276, -73.78512)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4882287,Station Wagon/Sport Utility Vehicle,Bike
+03/17/2026,18:30,Queens,,"    (40.667255, -73.86607)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885840,Station Wagon/Sport Utility Vehicle,E-Bike
+03/25/2026,12:00,Queens,,"    (40.781693, -73.8257)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887615,Station Wagon/Sport Utility Vehicle,E-Bike
+02/26/2026,14:45,Queens,11377,"    (40.75232, -73.89847)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4881627,Taxi,E-Bike
+02/19/2026,21:09,Queens,,"    (40.696785, -73.95658)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4880183,Taxi,E-Bike
+04/04/2026,23:35,Staten Island,10306,"    (40.566498, -74.11376)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4890056,Sedan,Bike
+03/24/2026,22:20,Staten Island,,"    (40.60686, -74.0771)",2,0,0,0,2,0,0,0,Driver Inattention/Distraction,4887645,Sedan,Bike
+02/10/2026,18:43,Staten Island,10312,"    (40.550858, -74.189285)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4878328,Station Wagon/Sport Utility Vehicle,Bike
+03/25/2026,21:59,Staten Island,10309,"    (40.52474, -74.23344)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4887758,Station Wagon/Sport Utility Vehicle,E-Bike
+03/14/2026,14:05,Staten Island,,"    (40.62589, -74.13182)",1,0,0,0,1,0,0,0,Driver Inattention/Distraction,4885314,Station Wagon/Sport Utility Vehicle,Bike
+04/04/2026,10:57,Bronx,10456,"    (40.831768, -73.90802)",1,0,0,0,1,0,0,0,Driver Inexperience,4889892,Sedan,Bike
+03/10/2026,20:25,Brooklyn,11228,"    (40.617645, -74.00303)",1,0,0,0,1,0,0,0,Driver Inexperience,4884891,Bike,Sedan
+03/07/2026,20:00,Brooklyn,11216,"    (40.678722, -73.95299)",1,0,0,0,1,0,0,0,Driver Inexperience,4886174,Bike,
+01/13/2026,00:00,Brooklyn,11204,"    (40.612003, -73.99056)",1,0,0,0,1,0,0,0,Driver Inexperience,4871468,Sedan,E-Bike
+03/21/2026,21:27,Brooklyn,11235,"    (40.586784, -73.944145)",1,0,0,0,1,0,0,0,Driver Inexperience,4886820,Sedan,Bike
+01/21/2026,21:54,Brooklyn,11223,"    (40.60444, -73.97569)",1,0,0,0,1,0,0,0,Driver Inexperience,4873510,Station Wagon/Sport Utility Vehicle,Bike
+02/12/2026,15:00,Manhattan,10018,"    (40.751915, -73.98905)",1,0,0,0,1,0,0,0,Driver Inexperience,4878681,Bike,Sedan
+03/08/2026,13:20,Manhattan,10000,"    (0.0, 0.0)",3,0,2,0,1,0,0,0,Driver Inexperience,4884183,Bike,
+03/11/2026,08:17,Manhattan,10019,"    (40.763485, -73.988945)",1,0,0,0,1,0,0,0,Driver Inexperience,4884550,Bike,Convertible
+03/20/2026,14:36,Manhattan,10000,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Driver Inexperience,4886888,Bike,
+02/19/2026,13:35,Manhattan,10016,"    (40.749725, -73.98362)",1,0,0,0,1,0,0,0,Driver Inexperience,4880587,Bus,Bike
+01/21/2026,14:45,Manhattan,10002,"    (40.71997, -73.9929)",1,0,0,0,1,0,0,0,Driver Inexperience,4873176,E-Bike,Sedan
+03/10/2026,20:40,Manhattan,10000,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Driver Inexperience,4884794,E-Bike,E-Bike
+01/10/2026,12:45,Manhattan,10002,"    (40.718555, -73.9882)",1,0,0,0,1,0,0,0,Driver Inexperience,4871405,Sedan,E-Bike
+03/04/2026,14:26,Manhattan,10002,"    (40.71644, -73.98885)",1,0,0,0,1,0,0,0,Driver Inexperience,4882972,Sedan,Bike
+02/17/2026,01:43,Manhattan,,"    (40.756035, -73.986946)",1,0,0,0,1,0,0,0,Driver Inexperience,4879615,Sedan,Bike
+01/23/2026,17:39,Manhattan,10024,"    (40.78065, -73.97642)",1,0,0,0,1,0,0,0,Driver Inexperience,4873586,Station Wagon/Sport Utility Vehicle,Bike
+03/13/2026,11:10,Queens,11419,"    (40.691734, -73.8299)",1,0,0,0,1,0,0,0,Driver Inexperience,4885455,Sedan,Bike
+03/27/2026,21:17,Queens,11434,"    (40.6815, -73.779335)",1,0,0,0,1,0,0,0,Driver Inexperience,4888439,Sedan,Bike
+03/19/2026,20:05,Manhattan,10027,"    (40.810173, -73.951164)",4,1,0,0,1,1,3,0,Drugs (illegal),4887516,Station Wagon/Sport Utility Vehicle,E-Bike
+02/09/2026,16:50,Brooklyn,11230,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Failure to Keep Right,4878004,Bike,Station Wagon/Sport Utility Vehicle
+01/26/2026,19:50,Manhattan,10032,"    (40.837193, -73.93669)",1,0,0,0,1,0,0,0,Failure to Keep Right,4874137,Station Wagon/Sport Utility Vehicle,Bike
+04/01/2026,18:38,Queens,11103,"    (40.762096, -73.912186)",1,0,0,0,1,0,0,0,Failure to Keep Right,4889691,Moped,Bike
+03/31/2026,16:24,Bronx,10466,"    (40.89536, -73.85609)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889722,Bike,
+02/09/2026,14:08,Bronx,,"    (40.8763, -73.87589)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4878002,Bus,Bike
+03/02/2026,18:57,Bronx,,"    (40.88858, -73.82813)",2,0,0,0,2,0,0,0,Failure to Yield Right-of-Way,4882665,E-Bike,
+02/03/2026,03:45,Bronx,,"    (40.872494, -73.88146)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4876397,Garbage or Refuse,Bike
+02/17/2026,18:24,Bronx,10451,"    (40.817543, -73.924095)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4880562,Sedan,Bike
+03/18/2026,11:55,Bronx,10463,"    (40.88432, -73.913734)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4886149,Sedan,Bike
+03/24/2026,17:30,Bronx,10466,"    (40.89551, -73.85648)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4887673,Sedan,E-Bike
+01/23/2026,10:32,Bronx,10451,"    (40.82445, -73.90988)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4873638,Station Wagon/Sport Utility Vehicle,E-Bike
+03/17/2026,20:19,Bronx,10455,"    (40.8161, -73.91779)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4885924,Station Wagon/Sport Utility Vehicle,E-Bike
+04/01/2026,01:31,Bronx,10451,"    (40.816555, -73.91954)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889144,Station Wagon/Sport Utility Vehicle,Bike
+04/04/2026,12:10,Bronx,,,1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4890322,Sedan,Bike
+02/18/2026,19:27,Brooklyn,11225,"    (40.66309, -73.96239)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4879939,Bike,
+03/14/2026,14:53,Brooklyn,11236,"    (40.649025, -73.89635)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4885111,Bike,
+03/15/2026,22:08,Brooklyn,11234,"    (40.63747, -73.919174)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4886081,Bike,
+04/02/2026,08:21,Brooklyn,11236,"    (40.649025, -73.89635)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889415,Bike,
+04/06/2026,10:06,Brooklyn,11204,"    (40.628994, -73.983635)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4890096,Bike,
+01/21/2026,17:48,Brooklyn,11220,"    (40.636986, -74.00442)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4873565,E-Bike,
+03/13/2026,22:30,Brooklyn,11205,"    (40.69336, -73.975845)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4884948,E-Bike,Station Wagon/Sport Utility Vehicle
+03/09/2026,15:15,Brooklyn,11230,"    (40.629986, -73.971565)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4884970,E-Bike,
+01/09/2026,16:48,Brooklyn,11233,"    (40.68011, -73.92548)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871941,Sedan,Bike
+01/20/2026,08:48,Brooklyn,11203,"    (40.642136, -73.92935)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4872928,Sedan,Bike
+01/22/2026,09:32,Brooklyn,11201,"    (40.69343, -73.98045)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4873334,Sedan,Bike
+02/16/2026,18:50,Brooklyn,11234,"    (40.62877, -73.91824)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4880384,Sedan,Bike
+03/01/2026,13:49,Brooklyn,11205,"    (40.689507, -73.97013)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4882284,Sedan,Bike
+03/03/2026,17:57,Brooklyn,11232,"    (40.66056, -74.00119)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4882832,Sedan,Bike
+03/19/2026,20:23,Brooklyn,11235,"    (40.58776, -73.95619)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4886287,Sedan,Bike
+02/06/2026,18:05,Brooklyn,,"    (40.695633, -73.98028)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4877284,Sedan,Bike
+03/05/2026,13:34,Brooklyn,,"    (40.69325, -73.97286)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883545,Sedan,Bike
+01/20/2026,17:12,Brooklyn,11204,"    (40.6266, -73.982704)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4872908,Station Wagon/Sport Utility Vehicle,Bike
+01/14/2026,18:00,Brooklyn,11223,"    (40.588528, -73.968895)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871880,Station Wagon/Sport Utility Vehicle,
+02/10/2026,09:00,Brooklyn,11204,"    (40.62582, -73.98372)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4877992,Station Wagon/Sport Utility Vehicle,Bike
+02/26/2026,17:00,Brooklyn,11201,"    (40.698246, -73.980545)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4881762,Station Wagon/Sport Utility Vehicle,Bike
+03/14/2026,08:45,Brooklyn,11215,"    (40.676147, -73.9839)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4885050,Station Wagon/Sport Utility Vehicle,Bike
+03/29/2026,19:57,Brooklyn,11213,"    (40.67043, -73.92818)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4888445,Station Wagon/Sport Utility Vehicle,E-Bike
+04/04/2026,20:52,Brooklyn,11218,"    (40.63613, -73.97273)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889613,Station Wagon/Sport Utility Vehicle,E-Bike
+04/04/2026,12:00,Brooklyn,11206,"    (40.71074, -73.94547)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889641,Station Wagon/Sport Utility Vehicle,Bike
+04/04/2026,10:05,Brooklyn,11205,"    (40.6903, -73.95896)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4890452,Station Wagon/Sport Utility Vehicle,Bike
+04/07/2026,12:02,Brooklyn,11225,"    (40.66309, -73.96239)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4890318,Station Wagon/Sport Utility Vehicle,Bike
+01/12/2026,21:55,Brooklyn,11225,"    (40.660225, -73.95331)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871274,Taxi,Bike
+03/02/2026,10:30,Manhattan,10009,"    (40.726463, -73.97709)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4882672,Bike,Taxi
+01/23/2026,20:04,Manhattan,10021,"    (40.771065, -73.95964)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4873580,Bike,
+03/06/2026,20:01,Manhattan,10002,"    (40.720745, -73.98616)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883518,Bike,Sedan
+03/26/2026,21:18,Manhattan,10032,"    (40.843224, -73.93918)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4887788,Bike,Sedan
+01/07/2026,09:40,Manhattan,10036,"    (40.75973, -73.991684)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4869941,Box Truck,E-Bike
+02/10/2026,19:37,Manhattan,10010,"    (40.742912, -73.992805)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4878200,Bus,Bike
+03/06/2026,21:10,Manhattan,10027,"    (40.809692, -73.944084)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883592,Convertible,Bike
+02/28/2026,11:30,Manhattan,,"    (40.757233, -73.98979)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4882455,E-Bike,
+01/12/2026,23:30,Manhattan,10002,"    (40.718143, -73.99383)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871512,Sedan,Bike
+01/19/2026,08:40,Manhattan,10022,"    (40.754875, -73.96852)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4872729,Sedan,E-Bike
+02/13/2026,14:33,Manhattan,10022,"    (40.758633, -73.96578)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4878761,Sedan,Bike
+02/19/2026,21:15,Manhattan,10065,"    (40.762806, -73.96567)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4880153,Sedan,E-Bike
+03/16/2026,03:50,Manhattan,10013,"    (40.725674, -74.00578)",2,0,0,0,1,0,1,0,Failure to Yield Right-of-Way,4886837,Sedan,Bike
+03/31/2026,13:02,Manhattan,10029,"    (40.783936, -73.94422)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4888897,Sedan,Bike
+01/10/2026,18:15,Manhattan,10007,"    (40.717175, -74.01287)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4870847,Station Wagon/Sport Utility Vehicle,E-Bike
+01/06/2026,17:41,Manhattan,10032,"    (40.838665, -73.939835)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871676,Station Wagon/Sport Utility Vehicle,Bike
+02/02/2026,18:50,Manhattan,10029,"    (40.79726, -73.94052)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4876362,Station Wagon/Sport Utility Vehicle,Bike
+02/04/2026,22:27,Manhattan,10018,"    (40.75591, -73.99447)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4876600,Station Wagon/Sport Utility Vehicle,Bike
+02/09/2026,20:56,Manhattan,10036,"    (40.759, -73.99593)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4877954,Station Wagon/Sport Utility Vehicle,Bike
+03/13/2026,21:10,Manhattan,10032,"    (40.837715, -73.939995)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4884945,Station Wagon/Sport Utility Vehicle,Bike
+03/17/2026,08:45,Manhattan,10025,"    (40.800438, -73.96571)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4885737,Station Wagon/Sport Utility Vehicle,Bike
+03/21/2026,18:00,Manhattan,10010,"    (40.742912, -73.992805)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4886759,Station Wagon/Sport Utility Vehicle,Bike
+03/15/2026,15:34,Manhattan,,"    (40.740173, -73.97615)",2,0,0,0,2,0,0,0,Failure to Yield Right-of-Way,4885421,Station Wagon/Sport Utility Vehicle,Bike
+03/11/2026,00:01,Manhattan,10033,"    (40.8468, -73.93185)",2,0,0,0,2,0,0,0,Failure to Yield Right-of-Way,4884433,Taxi,Bike
+01/13/2026,15:30,Queens,11101,"    (40.75475, -73.936775)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871824,Bike,
+02/14/2026,16:20,Queens,11101,"    (40.75117, -73.91519)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4879151,Bike,
+02/26/2026,18:35,Queens,11101,"    (40.74598, -73.94807)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4881655,Bike,Sedan
+03/05/2026,19:48,Queens,11432,"    (40.704697, -73.7968)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883755,Bike,
+03/09/2026,15:00,Queens,,"    (40.66606, -73.95863)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4884303,Bike,Sedan
+04/05/2026,00:50,Queens,,"    (40.657555, -73.89419)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889783,Bike,Station Wagon/Sport Utility Vehicle
+03/07/2026,20:20,Queens,11421,"    (40.692574, -73.85818)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883602,E-Bike,Pick-up Truck
+03/10/2026,11:50,Queens,,"    (40.771347, -73.83339)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4884436,E-Bike,Station Wagon/Sport Utility Vehicle
+03/08/2026,17:54,Queens,,"    (40.584923, -73.95124)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883947,Motorcycle,Bike
+03/24/2026,00:00,Queens,11423,"    (40.708927, -73.77732)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4887444,Pick-up Truck,Bike
+01/10/2026,07:30,Queens,11106,"    (40.76197, -73.925385)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4870943,Sedan,Bike
+01/14/2026,17:19,Queens,11417,"    (40.6807, -73.84464)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4871640,Sedan,Bike
+03/02/2026,15:45,Queens,11106,"    (40.759884, -73.93679)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883738,Sedan,E-Bike
+03/04/2026,12:55,Queens,11104,"    (40.746353, -73.91616)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4883058,Sedan,Bike
+03/12/2026,07:30,Queens,11355,"    (40.758484, -73.820045)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4884834,Sedan,Bike
+03/18/2026,21:33,Queens,11372,"    (40.75432, -73.879456)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4886088,Sedan,Bike
+03/23/2026,15:00,Queens,11355,"    (40.75232, -73.83239)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4887490,Sedan,Bike
+03/25/2026,19:10,Queens,11433,"    (40.702168, -73.79239)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4888056,Sedan,Bike
+03/31/2026,16:50,Queens,11378,"    (40.733532, -73.89596)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4889551,Sedan,Bike
+01/12/2026,07:50,Queens,11361,"    (40.764896, -73.76154)",2,0,0,0,2,0,0,0,Failure to Yield Right-of-Way,4871107,Sedan,Bike
+02/21/2026,19:40,Queens,,"    (40.674, -73.96039)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4880516,Sedan,Bike
+03/20/2026,13:15,Queens,,"    (40.762276, -73.78512)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4887425,Sedan,Bike
+03/29/2026,16:55,Queens,,"    (40.68161, -73.7722)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4888417,Sedan,Bike
+01/21/2026,16:05,Queens,,"    (40.731506, -73.8958)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4875095,Station Wagon/Sport Utility Vehicle,Bike
+03/06/2026,16:14,Queens,,"    (40.70444, -73.876305)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4885441,Station Wagon/Sport Utility Vehicle,Bike
+02/14/2026,19:40,Queens,11102,"    (40.77471, -73.93339)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4879395,Taxi,E-Bike
+02/25/2026,18:30,Staten Island,,"    (40.609104, -74.15211)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4881616,Sedan,Bike
+03/25/2026,12:55,Staten Island,10305,"    (40.592785, -74.06832)",1,0,0,0,1,0,0,0,Failure to Yield Right-of-Way,4887657,Station Wagon/Sport Utility Vehicle,E-Bike
+02/04/2026,15:10,Bronx,10457,"    (40.84437, -73.889015)",1,0,0,0,1,0,0,0,Following Too Closely,4876576,Bike,
+04/04/2026,05:22,Bronx,10455,"    (40.81228, -73.90309)",1,0,0,0,1,0,0,0,Following Too Closely,4889615,Bike,Station Wagon/Sport Utility Vehicle
+01/09/2026,18:40,Bronx,,"    (40.83945, -73.883835)",1,0,0,0,1,0,0,0,Following Too Closely,4871074,Bike,
+01/13/2026,08:05,Bronx,10451,"    (40.819057, -73.92922)",1,0,0,0,1,0,0,0,Following Too Closely,4871989,E-Bike,Sedan
+01/11/2026,20:44,Brooklyn,11216,"    (40.679832, -73.95321)",1,0,0,0,1,0,0,0,Following Too Closely,4872294,Bike,Sedan
+02/15/2026,19:12,Brooklyn,11208,"    (40.67368, -73.86575)",1,0,0,0,1,0,0,0,Following Too Closely,4879476,Bike,
+03/08/2026,13:37,Brooklyn,11214,"    (40.603443, -73.99498)",1,0,0,0,1,0,0,0,Following Too Closely,4883914,Bike,Sedan
+03/11/2026,12:37,Brooklyn,11217,"    (40.68087, -73.97514)",1,0,0,0,1,0,0,0,Following Too Closely,4884543,Bike,Sedan
+04/04/2026,03:58,Brooklyn,11221,"    (40.694687, -73.93089)",1,0,0,0,1,0,0,0,Following Too Closely,4890385,Bike,
+04/05/2026,19:55,Brooklyn,11249,"    (40.71038, -73.96867)",1,0,0,0,1,0,0,0,Following Too Closely,4889964,Bike,Sedan
+03/27/2026,13:51,Brooklyn,,"    (40.69325, -73.97286)",1,0,0,0,1,0,0,0,Following Too Closely,4888740,Bike,Sedan
+01/31/2026,21:32,Brooklyn,11238,"    (40.686287, -73.96949)",1,0,0,0,1,0,0,0,Following Too Closely,4876121,Sedan,Bike
+02/20/2026,22:31,Brooklyn,11225,"    (40.66872, -73.9556)",1,0,0,0,1,0,0,0,Following Too Closely,4880348,Station Wagon/Sport Utility Vehicle,E-Bike
+02/21/2026,21:54,Brooklyn,11211,"    (40.714066, -73.95162)",1,0,0,0,1,0,0,0,Following Too Closely,4880475,Station Wagon/Sport Utility Vehicle,Bike
+03/15/2026,11:10,Brooklyn,11226,"    (40.65513, -73.957565)",1,0,0,0,1,0,0,0,Following Too Closely,4885467,Station Wagon/Sport Utility Vehicle,E-Bike
+03/31/2026,16:16,Brooklyn,11206,"    (40.701927, -73.94421)",1,0,0,0,1,0,0,0,Following Too Closely,4889007,Station Wagon/Sport Utility Vehicle,Bike
+02/05/2026,07:50,Manhattan,10022,"    (40.76285, -73.96773)",1,0,0,0,1,0,0,0,Following Too Closely,4876646,Bike,Solid wast
+02/17/2026,11:45,Manhattan,10013,"    (40.717678, -74.005775)",1,0,0,0,1,0,0,0,Following Too Closely,4879845,Bike,Sedan
+03/10/2026,17:01,Manhattan,10018,"    (40.75108, -73.986855)",1,0,0,0,1,0,0,0,Following Too Closely,4884520,Bike,Sedan
+03/29/2026,16:56,Manhattan,10023,"    (40.774734, -73.988174)",1,0,0,0,1,0,0,0,Following Too Closely,4888428,Bike,
+01/23/2026,11:20,Manhattan,10018,"    (40.752853, -73.99298)",1,0,0,0,1,0,0,0,Following Too Closely,4873858,Box Truck,E-Bike
+02/25/2026,13:00,Manhattan,10001,"    (40.753387, -73.99631)",1,0,0,0,1,0,0,0,Following Too Closely,4881784,E-Bike,Sedan
+03/08/2026,20:30,Manhattan,10016,"    (40.746666, -73.97722)",1,0,0,0,1,0,0,0,Following Too Closely,4883906,E-Bike,
+03/30/2026,20:14,Manhattan,10036,"    (40.758694, -73.98534)",1,0,0,0,1,0,0,0,Following Too Closely,4888957,Sedan,Bike
+02/24/2026,13:26,Manhattan,10001,"    (40.745773, -73.990135)",1,0,0,0,1,0,0,0,Following Too Closely,4881105,Taxi,Bike
+02/17/2026,09:56,Manhattan,10012,"    (40.725006, -73.999344)",1,0,0,0,1,0,0,0,Following Too Closely,4879844,Van,Bike
+03/03/2026,17:30,Queens,11106,"    (40.76197, -73.925385)",1,0,0,0,1,0,0,0,Following Too Closely,4883737,Bike,Sedan
+03/26/2026,18:20,Queens,,"    (40.742233, -73.82537)",1,0,0,0,1,0,0,0,Following Too Closely,4887818,Station Wagon/Sport Utility Vehicle,Bike
+02/07/2026,19:14,Brooklyn,11226,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Headlights Defective,4877857,Bike,Sedan
+03/10/2026,17:35,Manhattan,10029,"    (40.791904, -73.941505)",1,0,0,0,1,0,0,0,Lane Marking Improper/Inadequate,4884980,Sedan,Bike
+03/08/2026,07:30,Bronx,10468,"    (40.860096, -73.902504)",1,0,0,0,1,0,0,0,Obstruction/Debris,4883837,Sedan,Bike
+02/15/2026,00:11,Brooklyn,11214,"    (40.59889, -73.99336)",2,0,1,0,1,0,0,0,Obstruction/Debris,4880170,Bike,
+03/20/2026,18:00,Brooklyn,11214,"    (40.597267, -73.99866)",1,0,0,0,1,0,0,0,Obstruction/Debris,4888381,Station Wagon/Sport Utility Vehicle,Bike
+03/26/2026,21:23,Bronx,10460,"    (40.837868, -73.863556)",1,0,0,0,1,0,0,0,Other Vehicular,4888541,Bike,Pick-up Truck
+02/14/2026,14:00,Bronx,,"    (40.832924, -73.862724)",1,0,0,0,1,0,0,0,Other Vehicular,4879200,Bike,
+03/08/2026,23:05,Bronx,10456,"    (40.82581, -73.90703)",2,0,0,0,2,0,0,0,Other Vehicular,4883954,Station Wagon/Sport Utility Vehicle,Bike
+03/16/2026,14:45,Bronx,10458,"    (40.855057, -73.884)",1,0,0,0,1,0,0,0,Other Vehicular,4885656,Station Wagon/Sport Utility Vehicle,Bike
+02/14/2026,20:55,Brooklyn,11205,"    (40.689545, -73.971146)",1,0,0,0,1,0,0,0,Other Vehicular,4879287,Bike,Station Wagon/Sport Utility Vehicle
+03/31/2026,08:58,Brooklyn,11217,"    (40.677048, -73.980034)",1,0,0,0,1,0,0,0,Other Vehicular,4888922,Bike,Sedan
+03/01/2026,15:03,Brooklyn,11223,"    (40.60455, -73.96909)",1,0,0,0,1,0,0,0,Other Vehicular,4882537,E-Bike,Station Wagon/Sport Utility Vehicle
+01/15/2026,23:38,Brooklyn,11233,"    (40.673237, -73.91401)",1,0,0,0,1,0,0,0,Other Vehicular,4871878,Sedan,Bike
+02/01/2026,14:40,Brooklyn,11235,"    (40.59328, -73.94537)",1,0,0,0,1,0,0,0,Other Vehicular,4875510,USPS Truck,E-Bike
+02/10/2026,20:58,Manhattan,10030,"    (40.821262, -73.946075)",1,0,0,0,1,0,0,0,Other Vehicular,4878113,Bike,Taxi
+03/17/2026,13:14,Manhattan,,"    (40.761486, -73.9606)",1,0,0,0,1,0,0,0,Other Vehicular,4885828,Bike,Sedan
+01/18/2026,13:03,Manhattan,10030,"    (40.81796, -73.94141)",1,0,0,0,1,0,0,0,Other Vehicular,4872554,Convertible,Bike
+01/01/2026,16:10,Manhattan,10027,"    (40.81339, -73.95626)",1,0,0,0,1,0,0,0,Other Vehicular,4868861,E-Bike,Station Wagon/Sport Utility Vehicle
+03/13/2026,13:50,Manhattan,10065,"    (40.763115, -73.96252)",1,0,0,0,1,0,0,0,Other Vehicular,4884905,Sedan,Bike
+03/13/2026,10:30,Manhattan,10013,"    (40.726437, -74.00565)",1,0,0,0,1,0,0,0,Other Vehicular,4885287,Sedan,Bike
+03/24/2026,09:55,Manhattan,10027,"    (40.808296, -73.94882)",1,0,0,0,1,0,0,0,Other Vehicular,4887632,Station Wagon/Sport Utility Vehicle,Bike
+04/01/2026,20:28,Manhattan,,"    (40.800514, -73.95786)",1,0,0,0,1,0,0,0,Other Vehicular,4889986,Station Wagon/Sport Utility Vehicle,E-Bike
+02/08/2026,18:45,Manhattan,10001,"    (40.75231, -73.99127)",1,0,0,0,1,0,0,0,Other Vehicular,4877956,Taxi,E-Bike
+01/07/2026,14:00,Queens,11434,"    (40.692116, -73.77728)",1,0,0,0,1,0,0,0,Other Vehicular,4870185,Sedan,E-Bike
+01/04/2026,17:45,Queens,,"    (40.767086, -73.78138)",1,0,0,0,1,0,0,0,Other Vehicular,4869445,Sedan,Bike
+01/01/2026,18:00,Brooklyn,11204,"    (40.630672, -73.98189)",1,0,0,0,1,0,0,0,Outside Car Distraction,4868867,Bike,Sedan
+02/06/2026,08:00,Queens,,"    (40.704033, -73.79379)",1,0,0,0,1,0,0,0,Outside Car Distraction,4877040,Station Wagon/Sport Utility Vehicle,Bike
+01/30/2026,16:05,Bronx,10457,"    (40.852154, -73.88922)",1,0,0,0,1,0,0,0,Passenger Distraction,4875710,Bike,
+02/11/2026,10:45,Bronx,10456,"    (40.832283, -73.90962)",1,0,0,0,1,0,0,0,Passenger Distraction,4878753,Bike,Sedan
+03/20/2026,08:58,Brooklyn,11215,"    (40.673977, -73.9857)",1,0,0,0,1,0,0,0,Passenger Distraction,4887071,Station Wagon/Sport Utility Vehicle,Bike
+03/28/2026,17:35,Brooklyn,11214,"    (40.604214, -73.997246)",1,0,0,0,1,0,0,0,Passenger Distraction,4888306,Station Wagon/Sport Utility Vehicle,E-Bike
+02/14/2026,18:44,Manhattan,10014,"    (40.731873, -74.00326)",1,0,0,0,1,0,0,0,Passenger Distraction,4879275,E-Bike,Station Wagon/Sport Utility Vehicle
+03/12/2026,21:20,Manhattan,10036,"    (40.763374, -73.99646)",1,0,0,0,1,0,0,0,Passenger Distraction,4884825,E-Bike,E-Bike
+01/02/2026,18:47,Manhattan,10031,"    (40.82269, -73.94946)",1,0,0,0,1,0,0,0,Passenger Distraction,4869016,Sedan,Bike
+01/13/2026,17:26,Bronx,,"    (40.813305, -73.9304)",2,0,0,0,1,0,1,0,Passing or Lane Usage Improper,4871747,Bus,Bike
+04/04/2026,21:42,Bronx,,"    (40.882393, -73.83622)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4890636,E-Bike,
+02/04/2026,09:50,Bronx,10453,"    (40.85048, -73.91543)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4878590,Sedan,E-Bike
+03/04/2026,08:30,Bronx,10454,"    (40.807503, -73.91866)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4882971,Sedan,E-Bike
+03/24/2026,00:40,Bronx,10456,"    (40.83193, -73.90959)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4887219,Sedan,Bike
+03/10/2026,18:40,Brooklyn,11217,"    (40.68087, -73.97514)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4884379,Bike,PK
+03/13/2026,17:48,Brooklyn,11217,"    (40.685196, -73.97828)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4884949,Bike,Sedan
+03/21/2026,22:00,Brooklyn,11226,"    (40.65505, -73.9563)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4887313,Bike,Sedan
+03/28/2026,17:04,Brooklyn,11231,"    (40.67769, -74.000404)",2,0,0,0,2,0,0,0,Passing or Lane Usage Improper,4888129,Bike,E-Bike
+02/18/2026,22:00,Brooklyn,,"    (40.66135, -73.99342)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4880648,Sedan,Bike
+01/04/2026,09:00,Brooklyn,11225,"    (40.665417, -73.965355)",2,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4869335,,Bike
+01/11/2026,13:01,Brooklyn,11220,"    (40.646225, -74.009155)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4871010,Station Wagon/Sport Utility Vehicle,Bike
+03/13/2026,20:56,Brooklyn,11207,"    (40.652363, -73.891365)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4885045,Station Wagon/Sport Utility Vehicle,E-Bike
+01/11/2026,17:15,Manhattan,10013,"    (40.718018, -73.999954)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4872184,Bike,Sedan
+01/21/2026,08:00,Manhattan,10001,"    (40.754585, -73.999146)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4873153,Bike,Box Truck
+03/10/2026,17:57,Manhattan,10019,"    (40.76525, -73.99509)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4884544,Bike,Sedan
+01/09/2026,00:39,Manhattan,10024,,2,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4870354,E-Bike,Standing S
+03/02/2026,11:05,Manhattan,10017,"    (40.75603, -73.97903)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4882555,E-Bike,
+03/14/2026,14:08,Manhattan,10013,"    (40.71608, -74.00117)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4885402,E-Bike,Sedan
+02/22/2026,13:33,Manhattan,10024,"    (40.78362, -73.9782)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4880873,Sedan,Bike
+03/20/2026,21:05,Manhattan,10001,"    (40.749226, -73.995834)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4886620,Sedan,Bike
+01/03/2026,18:45,Manhattan,10001,"    (40.745094, -73.98993)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4869357,Station Wagon/Sport Utility Vehicle,Bike
+01/12/2026,07:32,Manhattan,10017,"    (40.753624, -73.96943)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4871331,Station Wagon/Sport Utility Vehicle,Bike
+01/13/2026,18:35,Manhattan,10018,"    (40.75953, -73.999245)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4871419,Station Wagon/Sport Utility Vehicle,E-Bike
+02/13/2026,23:20,Manhattan,10029,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4878914,Station Wagon/Sport Utility Vehicle,Bike
+02/20/2026,18:33,Manhattan,10001,"    (40.753826, -73.99499)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4880278,Station Wagon/Sport Utility Vehicle,Bike
+03/10/2026,17:00,Manhattan,10036,"    (40.75734, -73.986015)",2,0,0,0,1,0,1,0,Passing or Lane Usage Improper,4884747,Station Wagon/Sport Utility Vehicle,Bike
+03/14/2026,17:23,Manhattan,10016,"    (40.74353, -73.97996)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4885100,Station Wagon/Sport Utility Vehicle,Bike
+03/10/2026,13:20,Manhattan,10065,"    (40.76429, -73.95561)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4887622,Station Wagon/Sport Utility Vehicle,Bike
+03/09/2026,06:34,Manhattan,10019,"    (40.769226, -73.984764)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4884144,Taxi,Bike
+03/22/2026,10:45,Manhattan,10022,"    (40.755505, -73.96806)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4887275,Taxi,E-Bike
+01/14/2026,06:14,Manhattan,10022,"    (40.759308, -73.965294)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4871601,Tractor Truck Diesel,Bike
+01/16/2026,22:43,Queens,11103,"    (40.77113, -73.91406)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4872403,Bike,
+02/01/2026,14:02,Queens,11369,"    (40.763638, -73.87142)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4875875,Bike,
+03/27/2026,05:45,Queens,11372,"    (40.748367, -73.87825)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4887947,Bike,
+03/08/2026,20:56,Queens,,"    (40.687077, -73.923546)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4884807,Bike,
+04/07/2026,15:17,Queens,,"    (40.702454, -73.816376)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4890443,Bike,Sedan
+03/14/2026,17:25,Queens,11373,"    (40.74623, -73.890366)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4885495,E-Bike,Station Wagon/Sport Utility Vehicle
+02/28/2026,17:43,Queens,11416,"    (40.687393, -73.846466)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4881986,Station Wagon/Sport Utility Vehicle,Bike
+03/27/2026,16:28,Queens,11377,"    (40.739525, -73.921326)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4887990,Station Wagon/Sport Utility Vehicle,E-Bike
+01/03/2026,18:55,Queens,11417,"    (40.68424, -73.83807)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4869185,Van,Bike
+02/28/2026,12:52,Staten Island,10314,"    (40.608017, -74.11606)",1,0,0,0,1,0,0,0,Passing or Lane Usage Improper,4882962,Sedan,Bike
+02/10/2026,20:15,Brooklyn,11237,"    (40.694687, -73.91111)",1,0,0,0,1,0,0,0,Passing Too Closely,4878163,Bike,Sedan
+02/10/2026,06:00,Brooklyn,11207,"    (40.66882, -73.89894)",1,0,0,0,1,0,0,0,Passing Too Closely,4877999,Bus,Bike
+03/25/2026,11:54,Brooklyn,11219,"    (40.6302, -73.99143)",1,0,0,0,1,0,0,0,Passing Too Closely,4887462,Sedan,Bike
+01/08/2026,19:17,Manhattan,10025,"    (40.79465, -73.97179)",1,0,0,0,1,0,0,0,Passing Too Closely,4870353,Bike,Station Wagon/Sport Utility Vehicle
+01/27/2026,19:00,Manhattan,10024,"    (40.78899, -73.97406)",1,0,0,0,1,0,0,0,Passing Too Closely,4874601,Bike,Taxi
+02/04/2026,12:55,Manhattan,10011,"    (40.73822, -73.99648)",1,0,0,0,1,0,0,0,Passing Too Closely,4876785,Bike,Convertible
+03/05/2026,17:43,Manhattan,10010,"    (40.739864, -73.98958)",1,0,0,0,1,0,0,0,Passing Too Closely,4885304,Bike,Station Wagon/Sport Utility Vehicle
+03/09/2026,00:15,Manhattan,10001,"    (40.748974, -74.003235)",1,0,0,0,1,0,0,0,Passing Too Closely,4885145,Bike,
+02/04/2026,14:30,Manhattan,10019,"    (40.761894, -73.98541)",1,0,0,0,1,0,0,0,Passing Too Closely,4877050,Bus,Bike
+01/01/2026,19:29,Manhattan,10035,"    (40.80024, -73.93284)",2,0,0,0,1,0,1,0,Passing Too Closely,4868891,Sedan,E-Bike
+03/26/2026,18:25,Manhattan,10033,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Passing Too Closely,4887789,Sedan,Bike
+03/04/2026,00:00,Manhattan,,"    (40.810757, -73.964424)",1,0,0,0,1,0,0,0,Passing Too Closely,4883001,Sedan,Bike
+01/12/2026,11:16,Manhattan,10003,"    (40.737003, -73.98797)",1,0,0,0,1,0,0,0,Passing Too Closely,4871492,Station Wagon/Sport Utility Vehicle,Bike
+03/24/2026,22:00,Queens,,"    (40.762447, -73.87202)",1,0,0,0,1,0,0,0,Passing Too Closely,4887439,E-Bike,Sedan
+04/01/2026,20:30,Queens,,"    (40.690933, -73.7322)",1,0,0,0,1,0,0,0,Passing Too Closely,4889154,Station Wagon/Sport Utility Vehicle,Bike
+01/11/2026,17:40,Brooklyn,11211,"    (40.71416, -73.960754)",1,0,0,0,1,0,0,0,Pavement Defective,4871045,Bike,
+01/15/2026,14:40,Brooklyn,11215,"    (40.672318, -73.97706)",1,0,0,0,1,0,0,0,Pavement Defective,4872044,Bike,
+01/31/2026,17:41,Brooklyn,11211,"    (40.70753, -73.95328)",2,0,0,0,2,0,0,0,Pavement Slippery,4875278,E-Bike,
+03/23/2026,23:17,Bronx,10454,"    (40.807392, -73.91842)",2,0,0,0,2,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887227,Bike,Bike
+04/04/2026,00:38,Bronx,10456,"    (40.835297, -73.9129)",2,0,1,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889746,Bike,
+03/25/2026,00:00,Bronx,10471,"    (40.889458, -73.89827)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887628,Convertible,Bike
+02/07/2026,12:55,Bronx,10465,"    (40.825603, -73.820724)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4877522,E-Bike,Station Wagon/Sport Utility Vehicle
+01/12/2026,08:00,Bronx,10457,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4871280,Sedan,Bike
+02/15/2026,19:38,Bronx,10456,"    (40.822716, -73.90314)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4879453,Sedan,Bike
+01/10/2026,19:44,Bronx,10460,"    (40.83522, -73.89358)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4870809,Station Wagon/Sport Utility Vehicle,E-Bike
+02/13/2026,17:25,Bronx,10467,"    (40.86919, -73.87975)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4878917,Station Wagon/Sport Utility Vehicle,E-Bike
+04/02/2026,12:48,Bronx,10463,"    (40.885098, -73.90065)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889675,Taxi,Bike
+01/12/2026,11:44,Bronx,10460,"    (40.841087, -73.86448)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4871288,Tractor Truck Diesel,E-Bike
+01/12/2026,12:30,Brooklyn,11224,"    (40.58152, -73.96733)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4871326,Bike,
+01/22/2026,09:12,Brooklyn,11215,"    (40.674, -73.98228)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4873327,Bike,
+02/12/2026,20:07,Brooklyn,11221,"    (40.701336, -73.92684)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4879458,Bike,
+03/04/2026,15:59,Brooklyn,11201,"    (40.694023, -73.99102)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4883282,Bike,
+03/27/2026,00:00,Brooklyn,11211,"    (40.70605, -73.95013)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4888736,Bike,Sedan
+01/07/2026,15:40,Brooklyn,11232,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4870320,Box Truck,Bike
+03/31/2026,18:00,Brooklyn,11209,"    (40.63061, -74.0396)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889285,Commercial Vehicle,Bike
+01/14/2026,17:55,Brooklyn,11221,"    (40.69614, -73.92725)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4871679,Sedan,Bike
+02/10/2026,19:24,Brooklyn,11204,"    (40.631794, -73.98072)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4878147,Sedan,Bike
+03/03/2026,18:45,Brooklyn,11225,"    (40.656487, -73.960075)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4883075,Sedan,Bike
+03/20/2026,13:11,Brooklyn,11205,"    (40.68888, -73.96001)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887101,Sedan,Bike
+03/25/2026,22:42,Brooklyn,11226,"    (40.64404, -73.949005)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887724,Sedan,Bike
+04/07/2026,14:30,Brooklyn,11235,"    (40.583107, -73.95414)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4890356,Sedan,Bike
+01/02/2026,17:17,Brooklyn,11229,"    (40.595398, -73.94578)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4869011,Station Wagon/Sport Utility Vehicle,Bike
+03/02/2026,17:25,Brooklyn,11249,"    (40.715523, -73.9664)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4882676,Station Wagon/Sport Utility Vehicle,E-Bike
+03/07/2026,16:03,Brooklyn,11206,"    (40.707336, -73.9432)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4883961,Station Wagon/Sport Utility Vehicle,Bike
+01/12/2026,10:03,Manhattan,10065,"    (40.763992, -73.95878)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4871235,Bike,
+01/21/2026,11:50,Manhattan,10036,"    (40.764282, -73.99858)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4878142,Bike,Bus
+02/19/2026,12:45,Manhattan,10036,"    (40.75571, -73.98239)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4880579,Bike,Sedan
+02/20/2026,22:47,Manhattan,10036,"    (40.758423, -73.985596)",2,0,1,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4880309,Bike,
+02/28/2026,16:58,Manhattan,10002,"    (40.722935, -73.98864)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4882593,Bike,
+03/07/2026,08:20,Manhattan,10037,"    (40.814106, -73.94086)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4883525,Bike,
+03/21/2026,11:30,Manhattan,10065,"    (40.765305, -73.97185)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4886830,Bike,Taxi
+03/26/2026,11:41,Manhattan,10016,"    (40.749107, -73.97665)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4888835,Bike,Box Truck
+04/02/2026,10:12,Manhattan,10001,"    (40.750904, -73.99812)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889266,Box Truck,Bike
+03/03/2026,07:44,Manhattan,10009,"    (40.72648, -73.98591)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4882864,Bus,E-Bike
+03/14/2026,16:43,Manhattan,10018,"    (40.755096, -73.98742)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4885119,Bus,Bike
+01/28/2026,14:00,Manhattan,10036,"    (40.75707, -73.97851)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4874643,E-Bike,E-Bike
+04/03/2026,15:10,Manhattan,10003,"    (40.72882, -73.98727)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889560,E-Bike,Sedan
+01/30/2026,04:48,Manhattan,,,2,0,1,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4875141,E-Bike,
+01/21/2026,13:57,Manhattan,,"    (40.7237, -74.00791)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4873855,E-Bike,
+01/09/2026,00:00,Manhattan,10018,"    (40.753517, -73.988785)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4870505,Sedan,Bike
+01/27/2026,22:15,Manhattan,10036,"    (40.75484, -73.984116)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4874448,Sedan,E-Bike
+03/07/2026,14:37,Manhattan,10023,"    (40.769848, -73.984314)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4883600,Sedan,Bike
+03/28/2026,15:45,Manhattan,10018,"    (40.752342, -73.98242)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4888647,Sedan,Bike
+04/01/2026,17:35,Manhattan,10065,"    (40.76484, -73.9705)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4890042,Sedan,Bike
+04/04/2026,14:59,Manhattan,10019,"    (40.763367, -73.98282)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889617,Sedan,Bike
+03/10/2026,14:08,Manhattan,10065,"    (40.766666, -73.967064)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4884361,Station Wagon/Sport Utility Vehicle,Bike
+04/03/2026,23:41,Manhattan,10028,"    (40.780857, -73.95882)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4889557,Station Wagon/Sport Utility Vehicle,Bike
+01/21/2026,08:40,Manhattan,10009,"    (40.734962, -73.97979)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4874013,Taxi,Bike
+02/06/2026,14:53,Manhattan,10018,"    (40.752678, -73.98319)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4877955,Taxi,Sedan
+03/25/2026,05:49,Manhattan,10037,"    (40.810856, -73.93902)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887860,Taxi,Bike
+02/25/2026,11:40,Queens,,"    (40.69009, -73.93647)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4882327,Bike,Sedan
+03/08/2026,15:06,Queens,,"    (40.662014, -73.88682)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4883840,Bike,Station Wagon/Sport Utility Vehicle
+04/01/2026,13:00,Queens,,"    (40.721664, -73.84373)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4890038,Bike,Station Wagon/Sport Utility Vehicle
+01/23/2026,18:15,Queens,11433,"    (40.69815, -73.792404)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4874947,E-Bike,Station Wagon/Sport Utility Vehicle
+02/21/2026,13:00,Queens,11004,"    (40.74545, -73.708374)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4880378,Sedan,Bike
+03/25/2026,08:12,Queens,11377,"    (40.740746, -73.90778)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887468,Sedan,Bike
+01/05/2026,02:19,Queens,,"    (40.66239, -73.73033)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4869752,Sedan,Bike
+03/19/2026,20:57,Queens,11377,"    (40.74273, -73.914986)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887470,Station Wagon/Sport Utility Vehicle,Bike
+03/25/2026,18:20,Queens,11365,"    (40.746967, -73.79826)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4887617,Station Wagon/Sport Utility Vehicle,Bike
+03/02/2026,11:34,Queens,,"    (40.69657, -73.958435)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4882547,Station Wagon/Sport Utility Vehicle,Bike
+01/07/2026,16:30,Staten Island,10301,"    (40.63802, -74.07958)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4870064,Station Wagon/Sport Utility Vehicle,Bike
+03/08/2026,22:00,Staten Island,10306,"    (40.58124, -74.09844)",1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,4884671,Station Wagon/Sport Utility Vehicle,Bike
+04/04/2026,14:50,Brooklyn,11226,"    (40.639305, -73.95897)",1,0,0,0,1,0,0,0,Reaction to Uninvolved Vehicle,4890543,Bike,Sedan
+04/02/2026,14:44,Manhattan,10035,"    (40.80798, -73.94088)",1,0,0,0,1,0,0,0,Reaction to Uninvolved Vehicle,4889317,Station Wagon/Sport Utility Vehicle,Bike
+03/08/2026,18:50,Bronx,10467,"    (40.880783, -73.88346)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4884515,Bike,Sedan
+01/22/2026,13:58,Bronx,10474,"    (40.818993, -73.886696)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4873836,E-Bike,
+02/20/2026,03:10,Bronx,10453,"    (40.861866, -73.91274)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4880404,E-Bike,Sedan
+03/31/2026,10:24,Bronx,10451,"    (40.81856, -73.927315)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4889143,E-Bike,Station Wagon/Sport Utility Vehicle
+03/31/2026,14:43,Bronx,10462,"    (40.84151, -73.8595)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4888886,Sedan,E-Bike
+03/31/2026,17:50,Bronx,10458,"    (40.85713, -73.88079)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4889392,Station Wagon/Sport Utility Vehicle,E-Bike
+04/07/2026,14:35,Bronx,10454,"    (40.80599, -73.92145)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4890421,Station Wagon/Sport Utility Vehicle,E-Bike
+04/05/2026,19:15,Brooklyn,11211,"    (40.7089, -73.95472)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4889965,Bike,Sedan
+01/08/2026,15:15,Brooklyn,11236,"    (40.636505, -73.91572)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4870279,Station Wagon/Sport Utility Vehicle,Bike
+01/19/2026,18:00,Manhattan,10003,"    (40.73012, -73.98947)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4873919,E-Bike,Sedan
+03/04/2026,12:10,Manhattan,,"    (40.725792, -74.011024)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4883484,E-Bike,
+01/13/2026,14:58,Manhattan,10002,"    (40.713276, -73.98191)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4871626,Pick-up Truck,E-Bike
+01/20/2026,13:12,Manhattan,10029,"    (40.795464, -73.94603)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4872889,Sedan,Bike
+01/24/2026,16:15,Manhattan,10025,"    (40.799133, -73.96666)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4873688,Sedan,Bike
+02/12/2026,14:24,Manhattan,10034,"    (40.868484, -73.91856)",0,1,0,0,0,1,0,0,Traffic Control Disregarded,4878643,Sedan,E-Bike
+03/06/2026,16:00,Manhattan,10035,"    (40.80051, -73.93815)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4883622,Sedan,Bike
+03/10/2026,12:04,Manhattan,10016,"    (40.743206, -73.97996)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4884347,Sedan,Bike
+03/01/2026,11:50,Manhattan,,"    (40.721653, -73.941956)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4882657,Sedan,E-Bike
+01/19/2026,19:05,Manhattan,10002,"    (40.71997, -73.9929)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4873050,Station Wagon/Sport Utility Vehicle,E-Bike
+03/01/2026,20:26,Manhattan,10030,"    (40.819046, -73.94469)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4882332,Taxi,Bike
+02/22/2026,01:30,Queens,11369,"    (40.76326, -73.86851)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4880605,Bike,
+03/11/2026,08:20,Queens,11368,"    (40.75255, -73.85648)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4884635,Bike,
+03/23/2026,09:30,Queens,11418,"    (40.6996, -73.8415)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4887054,Bike,Sedan
+01/08/2026,23:56,Queens,11105,"    (40.780457, -73.91683)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4870715,Convertible,Bike
+01/11/2026,20:20,Queens,11370,"    (40.768345, -73.89527)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4871277,Sedan,Bike
+03/06/2026,16:29,Queens,11373,"    (40.734184, -73.882774)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4883994,Sedan,Bike
+03/06/2026,08:13,Queens,11355,"    (40.743324, -73.818306)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4883683,Sedan,E-Bike
+03/31/2026,15:11,Queens,,"    (40.69215, -73.86215)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4889084,Sedan,Bike
+03/28/2026,07:40,Queens,11369,"    (40.758465, -73.87832)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4887985,Station Wagon/Sport Utility Vehicle,Bike
+03/31/2026,04:43,Queens,11373,"    (40.732582, -73.86805)",1,0,0,0,1,0,0,0,Traffic Control Disregarded,4888771,Station Wagon/Sport Utility Vehicle,E-Bike
+01/20/2026,20:41,Bronx,10468,"    (40.86078, -73.90696)",1,0,0,0,1,0,0,0,Turning Improperly,4873908,Pick-up Truck,Bike
+01/13/2026,17:33,Bronx,10457,"    (40.844902, -73.8901)",1,0,0,0,1,0,0,0,Turning Improperly,4871477,Sedan,Bike
+03/06/2026,21:05,Bronx,10454,"    (40.80804, -73.92074)",1,0,0,0,1,0,0,0,Turning Improperly,4884075,Sedan,E-Bike
+03/09/2026,00:00,Bronx,10472,"    (40.830517, -73.87268)",1,0,0,0,1,0,0,0,Turning Improperly,4884211,Sedan,Bike
+03/17/2026,15:24,Brooklyn,11214,"    (40.600697, -73.99637)",2,0,0,0,1,0,1,0,Turning Improperly,4885819,Bike,Motorcycle
+01/18/2026,23:56,Brooklyn,11206,"    (40.71122, -73.94042)",1,0,0,0,1,0,0,0,Turning Improperly,4872793,Sedan,Bike
+02/15/2026,16:35,Brooklyn,11232,"    (40.659912, -73.9986)",3,0,0,0,1,0,2,0,Turning Improperly,4879574,Sedan,Bike
+01/02/2026,13:33,Brooklyn,11215,"    (40.664425, -73.98695)",1,0,0,0,1,0,0,0,Turning Improperly,4869091,Station Wagon/Sport Utility Vehicle,Bike
+01/19/2026,09:45,Brooklyn,11219,"    (40.625046, -73.99533)",1,0,0,0,1,0,0,0,Turning Improperly,4872776,Station Wagon/Sport Utility Vehicle,Bike
+03/12/2026,06:34,Brooklyn,11219,"    (40.637417, -73.99909)",1,0,0,0,1,0,0,0,Turning Improperly,4884649,Station Wagon/Sport Utility Vehicle,Bike
+03/12/2026,13:15,Brooklyn,11220,"    (40.64703, -74.01199)",1,0,0,0,1,0,0,0,Turning Improperly,4884706,Station Wagon/Sport Utility Vehicle,Bike
+02/10/2026,00:00,Manhattan,10030,"    (40.82403, -73.944756)",1,0,0,0,1,0,0,0,Turning Improperly,4878347,Bike,Sedan
+01/21/2026,20:40,Manhattan,10017,"    (40.753242, -73.96661)",1,0,0,0,1,0,0,0,Turning Improperly,4873188,Sedan,E-Bike
+01/23/2026,16:25,Manhattan,10036,"    (40.757233, -73.98979)",1,0,0,0,1,0,0,0,Turning Improperly,4873926,Sedan,Bike
+03/29/2026,20:15,Manhattan,10039,"    (40.827877, -73.93824)",1,0,0,0,1,0,0,0,Turning Improperly,4888482,Sedan,Bike
+01/13/2026,14:40,Manhattan,10031,"    (40.821705, -73.956795)",2,0,0,0,1,0,1,0,Turning Improperly,4871484,Station Wagon/Sport Utility Vehicle,Bike
+01/20/2026,15:27,Manhattan,10039,"    (40.82538, -73.940056)",1,0,0,0,1,0,0,0,Turning Improperly,4873108,Station Wagon/Sport Utility Vehicle,Bike
+01/22/2026,23:43,Manhattan,10026,"    (40.799465, -73.95537)",1,0,0,0,1,0,0,0,Turning Improperly,4874602,Station Wagon/Sport Utility Vehicle,E-Bike
+02/13/2026,19:30,Manhattan,10011,"    (40.745125, -73.99765)",1,0,0,0,1,0,0,0,Turning Improperly,4878874,Station Wagon/Sport Utility Vehicle,Bike
+03/12/2026,18:28,Queens,,"    (40.670887, -73.93649)",1,0,0,0,1,0,0,0,Turning Improperly,4884800,Sedan,Bike
+02/16/2026,18:35,Queens,11373,"    (40.73527, -73.88128)",1,0,0,0,1,0,0,0,Turning Improperly,4879799,Station Wagon/Sport Utility Vehicle,Bike
+01/19/2026,17:10,Brooklyn,11238,"    (40.673588, -73.96295)",2,0,0,0,1,0,1,0,Unsafe Lane Changing,4873372,Bike,Motorcycle
+04/04/2026,15:40,Brooklyn,11220,"    (40.63855, -74.00618)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4889588,Station Wagon/Sport Utility Vehicle,Bike
+01/23/2026,13:00,Manhattan,10028,"    (40.780178, -73.9572)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4873946,Bike,Taxi
+04/06/2026,07:48,Manhattan,10029,"    (40.791077, -73.94234)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4890212,Bike,Sedan
+01/22/2026,08:45,Manhattan,10029,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4873610,Sedan,E-Bike
+03/04/2026,07:21,Manhattan,10022,"    (40.759834, -73.96611)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4882918,Sedan,Bike
+03/10/2026,13:20,Manhattan,10065,"    (40.76429, -73.95561)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4884423,Station Wagon/Sport Utility Vehicle,Bike
+03/09/2026,22:20,Queens,11365,"    (40.74567, -73.79249)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4884346,Bike,
+03/30/2026,22:20,Queens,,"    (40.75563, -73.815636)",1,0,0,0,1,0,0,0,Unsafe Lane Changing,4889198,Sedan,Bike
+01/08/2026,16:20,Bronx,10454,"    (40.809574, -73.91805)",1,0,0,0,1,0,0,0,Unsafe Speed,4870424,Bike,
+01/13/2026,18:57,Bronx,10460,"    (40.843765, -73.88545)",1,0,0,0,1,0,0,0,Unsafe Speed,4871478,Bike,Sedan
+04/03/2026,20:27,Bronx,,"    (40.842655, -73.9023)",1,0,0,0,1,0,0,0,Unsafe Speed,4890657,Bike,Moped
+01/21/2026,00:00,Bronx,,"    (40.863155, -73.909065)",1,0,0,0,1,0,0,0,Unsafe Speed,4873853,E-Bike,Sedan
+02/12/2026,18:40,Bronx,10468,"    (40.86292, -73.90419)",1,0,0,0,1,0,0,0,Unsafe Speed,4878836,Sedan,E-Bike
+03/15/2026,18:40,Bronx,10459,"    (40.82677, -73.88885)",1,0,0,0,1,0,0,0,Unsafe Speed,4885937,Sedan,Bike
+03/01/2026,16:52,Bronx,,"    (40.852383, -73.90364)",1,0,0,0,1,0,0,0,Unsafe Speed,4882446,Station Wagon/Sport Utility Vehicle,E-Bike
+03/29/2026,22:31,Brooklyn,11204,"    (40.609512, -73.98956)",1,0,0,0,1,0,0,0,Unsafe Speed,4889225,Bike,
+02/27/2026,13:00,Brooklyn,11215,"    (40.670357, -73.988716)",1,0,0,0,1,0,0,0,Unsafe Speed,4881855,Sedan,Bike
+03/15/2026,07:00,Manhattan,10034,"    (40.864403, -73.92377)",1,0,0,0,1,0,0,0,Unsafe Speed,4885205,E-Bike,Station Wagon/Sport Utility Vehicle
+02/19/2026,12:00,Manhattan,10019,"    (40.765026, -73.97505)",1,0,0,0,1,0,0,0,Unsafe Speed,4880109,Station Wagon/Sport Utility Vehicle,Bike
+02/20/2026,14:42,Manhattan,10035,"    (40.802395, -73.93677)",1,0,0,0,1,0,0,0,Unsafe Speed,4880302,Station Wagon/Sport Utility Vehicle,E-Bike
+03/20/2026,16:13,Manhattan,10029,"    (40.792934, -73.9479)",1,0,0,0,1,0,0,0,Unsafe Speed,4886438,Station Wagon/Sport Utility Vehicle,Bike
+04/06/2026,14:12,Queens,11368,"    (40.760178, -73.84397)",1,0,0,0,1,0,0,0,Unsafe Speed,4890236,Bike,Sedan
+03/01/2026,11:45,Queens,11379,"    (40.72144, -73.880844)",1,0,0,0,1,0,0,0,Unsafe Speed,4882795,Sedan,Bike
+01/05/2026,00:00,Bronx,10453,"    (40.856388, -73.901764)",2,0,0,0,1,0,1,0,Unspecified,4869814,Bike,Moped
+01/08/2026,09:10,Bronx,10463,"    (40.87727, -73.91258)",1,0,0,0,1,0,0,0,Unspecified,4871262,Bike,
+02/04/2026,00:00,Bronx,10460,"    (40.838303, -73.86445)",1,0,0,0,1,0,0,0,Unspecified,4876789,Bike,Station Wagon/Sport Utility Vehicle
+03/26/2026,12:38,Bronx,10474,"    (40.80998, -73.88087)",1,0,0,0,1,0,0,0,Unspecified,4887716,Bike,Sedan
+03/28/2026,21:44,Bronx,10457,"    (40.85567, -73.89967)",1,0,0,0,1,0,0,0,Unspecified,4888293,Bike,
+03/27/2026,07:27,Bronx,10452,"    (40.834164, -73.92222)",1,0,0,0,1,0,0,0,Unspecified,4889882,Bike,
+02/11/2026,17:40,Bronx,,"    (40.805046, -73.93693)",1,0,0,0,1,0,0,0,Unspecified,4878356,Bike,Sedan
+01/20/2026,16:45,Bronx,10453,"    (40.857483, -73.90967)",1,0,0,0,1,0,0,0,Unspecified,4872940,Sedan,Bike
+01/21/2026,21:09,Bronx,10459,"    (40.82863, -73.89088)",2,0,0,0,1,0,1,0,Unspecified,4873644,Sedan,E-Bike
+02/18/2026,03:40,Bronx,10469,"    (40.88245, -73.85667)",1,0,0,0,1,0,0,0,Unspecified,4881540,Sedan,Bike
+03/01/2026,05:44,Bronx,10458,"    (40.86228, -73.896866)",1,0,0,0,1,0,0,0,Unspecified,4882678,Sedan,Bike
+03/05/2026,19:45,Bronx,10455,"    (40.81626, -73.9142)",1,0,0,0,1,0,0,0,Unspecified,4883275,Sedan,Bike
+03/26/2026,13:08,Bronx,10466,"    (40.88813, -73.854)",1,0,0,0,1,0,0,0,Unspecified,4888234,Sedan,E-Bike
+04/05/2026,21:07,Bronx,10462,"    (40.854504, -73.86771)",1,0,0,0,1,0,0,0,Unspecified,4889995,Sedan,E-Bike
+04/07/2026,07:50,Bronx,10474,"    (40.80673, -73.87168)",1,0,0,0,1,0,0,0,Unspecified,4890521,Sedan,Bike
+01/09/2026,21:55,Bronx,,"    (40.786068, -73.83743)",1,0,0,0,1,0,0,0,Unspecified,4870690,Sedan,E-Bike
+02/16/2026,19:16,Bronx,,"    (40.826534, -73.831696)",1,0,0,0,1,0,0,0,Unspecified,4879749,Sedan,E-Bike
+01/29/2026,18:28,Bronx,10456,"    (40.829628, -73.90221)",1,0,0,0,1,0,0,0,Unspecified,4875192,Station Wagon/Sport Utility Vehicle,Bike
+02/12/2026,17:50,Bronx,10456,"    (40.82581, -73.90703)",1,0,0,0,1,0,0,0,Unspecified,4878620,Station Wagon/Sport Utility Vehicle,
+04/05/2026,04:27,Bronx,10465,"    (40.82298, -73.8271)",1,0,0,0,1,0,0,0,Unspecified,4889826,Station Wagon/Sport Utility Vehicle,Bike
+01/03/2026,15:55,Brooklyn,11207,"    (40.68708, -73.913895)",1,0,0,0,1,0,0,0,Unspecified,4869182,Bike,Sedan
+01/04/2026,23:10,Brooklyn,11201,"    (40.696133, -73.98711)",1,0,0,0,1,0,0,0,Unspecified,4870063,Bike,
+01/08/2026,08:22,Brooklyn,11221,"    (40.699627, -73.923836)",1,0,0,0,1,0,0,0,Unspecified,4870170,Bike,
+02/15/2026,23:59,Brooklyn,11225,"    (40.66154, -73.96279)",1,0,0,0,1,0,0,0,Unspecified,4879370,Bike,
+02/17/2026,23:30,Brooklyn,11201,"    (40.689934, -73.981476)",1,0,0,0,1,0,0,0,Unspecified,4880165,Bike,Sedan
+03/13/2026,18:02,Brooklyn,11216,"    (40.679695, -73.93935)",1,0,0,0,1,0,0,0,Unspecified,4884976,Bike,
+03/18/2026,18:17,Brooklyn,11218,"    (40.643307, -73.9741)",1,0,0,0,1,0,0,0,Unspecified,4886026,Bike,
+03/20/2026,14:00,Brooklyn,11218,"    (40.643307, -73.9741)",1,0,0,0,1,0,0,0,Unspecified,4886371,Bike,
+03/21/2026,00:00,Brooklyn,11229,"    (40.603683, -73.9554)",1,0,0,0,1,0,0,0,Unspecified,4886684,Bike,Sedan
+03/30/2026,10:24,Brooklyn,11238,"    (40.686684, -73.95957)",1,0,0,0,1,0,0,0,Unspecified,4888743,Bike,Sedan
+04/04/2026,18:33,Brooklyn,11233,"    (40.68452, -73.91331)",1,0,0,0,1,0,0,0,Unspecified,4889631,Bike,
+04/04/2026,21:43,Brooklyn,11223,"    (40.602543, -73.961296)",1,0,0,0,1,0,0,0,Unspecified,4889660,Bike,
+04/05/2026,19:24,Brooklyn,11213,"    (40.676746, -73.93315)",1,0,0,0,1,0,0,0,Unspecified,4890050,Bike,
+04/06/2026,16:55,Brooklyn,,,1,0,0,0,1,0,0,0,Unspecified,4890169,Bike,
+01/01/2026,13:22,Brooklyn,11235,"    (40.576305, -73.96853)",1,0,0,0,1,0,0,0,Unspecified,4868827,Bus,E-Bike
+01/16/2026,13:35,Brooklyn,11235,"    (40.590748, -73.948715)",1,0,0,0,1,0,0,0,Unspecified,4871965,E-Bike,Sedan
+02/10/2026,19:22,Brooklyn,11238,"    (40.68821, -73.96582)",1,0,0,0,1,0,0,0,Unspecified,4878305,E-Bike,Station Wagon/Sport Utility Vehicle
+03/05/2026,22:29,Brooklyn,11233,"    (40.68316, -73.93808)",1,0,0,0,1,0,0,0,Unspecified,4883645,E-Bike,Sedan
+03/26/2026,21:35,Brooklyn,11226,"    (40.64652, -73.95811)",1,0,0,0,1,0,0,0,Unspecified,4887930,E-Bike,Sedan
+04/03/2026,19:53,Brooklyn,11218,"    (40.65086, -73.97263)",2,0,0,0,2,0,0,0,Unspecified,4889483,E-Bike,E-Bike
+01/28/2026,14:24,Brooklyn,11201,"    (40.697887, -73.994606)",1,0,0,0,1,0,0,0,Unspecified,4874594,Pedicab,
+01/02/2026,21:01,Brooklyn,11219,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Unspecified,4869071,Sedan,E-Bike
+01/03/2026,15:00,Brooklyn,11232,"    (40.65431, -74.00442)",1,0,0,0,1,0,0,0,Unspecified,4870065,Sedan,Bike
+01/06/2026,14:18,Brooklyn,11230,"    (40.62179, -73.97002)",1,0,0,0,1,0,0,0,Unspecified,4870163,Sedan,Bike
+01/14/2026,17:10,Brooklyn,11238,"    (40.682564, -73.963036)",1,0,0,0,1,0,0,0,Unspecified,4871619,Sedan,Bike
+01/15/2026,20:31,Brooklyn,11207,"    (40.674686, -73.89459)",1,0,0,0,1,0,0,0,Unspecified,4871854,Sedan,Bike
+01/24/2026,19:30,Brooklyn,11210,"    (40.63504, -73.948044)",1,0,0,0,1,0,0,0,Unspecified,4873753,Sedan,Bike
+02/11/2026,13:53,Brooklyn,11210,"    (40.621784, -73.94789)",1,0,0,0,1,0,0,0,Unspecified,4878640,Sedan,Bike
+02/10/2026,16:04,Brooklyn,11228,"    (40.623913, -74.007256)",1,0,0,0,1,0,0,0,Unspecified,4879718,Sedan,Bike
+02/15/2026,20:00,Brooklyn,11215,"    (40.659794, -73.98087)",1,0,0,0,1,0,0,0,Unspecified,4879350,Sedan,Bike
+02/18/2026,23:31,Brooklyn,11226,"    (40.644215, -73.958115)",1,0,0,0,1,0,0,0,Unspecified,4879974,Sedan,Bike
+02/19/2026,18:34,Brooklyn,11209,"    (40.630108, -74.02536)",1,0,0,0,1,0,0,0,Unspecified,4880984,Sedan,Bike
+02/28/2026,21:00,Brooklyn,11219,"    (40.639065, -73.99301)",1,0,0,0,1,0,0,0,Unspecified,4881979,Sedan,Bike
+03/02/2026,10:13,Brooklyn,11232,"    (40.661037, -73.99743)",1,0,0,0,1,0,0,0,Unspecified,4882707,Sedan,Bike
+03/08/2026,14:00,Brooklyn,11219,"    (40.631565, -74.00239)",1,0,0,0,1,0,0,0,Unspecified,4883835,Sedan,Bike
+03/13/2026,00:20,Brooklyn,11223,"    (40.59758, -73.96777)",1,0,0,0,1,0,0,0,Unspecified,4884866,Sedan,Bike
+03/15/2026,19:50,Brooklyn,11219,"    (40.634274, -73.99312)",1,0,0,0,1,0,0,0,Unspecified,4885414,Sedan,Bike
+03/26/2026,13:11,Brooklyn,11212,"    (40.669125, -73.91451)",1,0,0,0,1,0,0,0,Unspecified,4887700,Sedan,Bike
+04/01/2026,11:35,Brooklyn,11219,"    (40.636936, -73.99981)",1,0,0,0,1,0,0,0,Unspecified,4889514,Sedan,Bike
+01/08/2026,14:22,Brooklyn,11201,"    (40.692123, -73.98903)",1,0,0,0,1,0,0,0,Unspecified,4871121,Station Wagon/Sport Utility Vehicle,Bike
+02/02/2026,12:10,Brooklyn,11232,"    (40.661037, -73.99743)",1,0,0,0,1,0,0,0,Unspecified,4876182,Station Wagon/Sport Utility Vehicle,E-Bike
+02/11/2026,16:30,Brooklyn,11232,"    (40.65799, -73.99692)",1,0,0,0,1,0,0,0,Unspecified,4878461,Station Wagon/Sport Utility Vehicle,E-Bike
+02/14/2026,21:52,Brooklyn,11232,"    (40.643707, -73.99743)",1,0,0,0,1,0,0,0,Unspecified,4879057,Station Wagon/Sport Utility Vehicle,Bike
+02/16/2026,15:24,Brooklyn,11201,"    (40.69365, -73.98332)",1,0,0,0,1,0,0,0,Unspecified,4879942,Station Wagon/Sport Utility Vehicle,Bike
+02/19/2026,12:00,Brooklyn,11220,"    (40.646225, -74.009155)",1,0,0,0,1,0,0,0,Unspecified,4880300,Station Wagon/Sport Utility Vehicle,Bike
+03/07/2026,21:30,Brooklyn,11222,"    (40.730858, -73.9579)",1,0,0,0,1,0,0,0,Unspecified,4883826,Station Wagon/Sport Utility Vehicle,Bike
+03/09/2026,09:01,Brooklyn,11210,"    (40.632145, -73.95273)",1,0,0,0,1,0,0,0,Unspecified,4884164,Station Wagon/Sport Utility Vehicle,Bike
+03/21/2026,14:21,Brooklyn,11234,"    (40.616795, -73.92372)",1,0,0,0,1,0,0,0,Unspecified,4886571,Station Wagon/Sport Utility Vehicle,Bike
+03/31/2026,10:25,Brooklyn,11201,"    (40.68902, -73.98616)",1,0,0,0,1,0,0,0,Unspecified,4888804,Station Wagon/Sport Utility Vehicle,Bike
+01/03/2026,03:45,Manhattan,10036,"    (40.76275, -73.99691)",1,0,0,0,1,0,0,0,Unspecified,4869292,Bike,Station Wagon/Sport Utility Vehicle
+01/08/2026,15:47,Manhattan,10035,"    (40.799892, -73.93858)",1,0,0,0,1,0,0,0,Unspecified,4870236,Bike,
+01/11/2026,12:27,Manhattan,10010,"    (40.741253, -73.98331)",1,0,0,0,1,0,0,0,Unspecified,4870870,Bike,
+01/13/2026,17:00,Manhattan,10018,"    (40.75475, -73.98789)",1,0,0,0,1,0,0,0,Unspecified,4871558,Bike,Box Truck
+01/16/2026,10:22,Manhattan,10029,"    (40.78995, -73.942924)",1,0,0,0,1,0,0,0,Unspecified,4871939,Bike,
+01/03/2026,00:00,Manhattan,10036,"    (40.760147, -73.98906)",1,0,0,0,1,0,0,0,Unspecified,4873593,Bike,Taxi
+01/24/2026,16:00,Manhattan,10001,"    (40.750137, -73.98625)",1,0,0,0,1,0,0,0,Unspecified,4873678,Bike,Sedan
+01/23/2026,23:40,Manhattan,10011,"    (40.73656, -74.00109)",1,0,0,0,1,0,0,0,Unspecified,4874035,Bike,
+01/26/2026,14:44,Manhattan,10027,"    (40.811058, -73.95286)",1,0,0,0,1,0,0,0,Unspecified,4874102,Bike,Sedan
+01/22/2026,19:07,Manhattan,10019,"    (40.765244, -73.98226)",1,0,0,0,1,0,0,0,Unspecified,4874260,Bike,Taxi
+01/30/2026,15:10,Manhattan,10035,"    (40.79981, -73.94094)",1,0,0,0,1,0,0,0,Unspecified,4875860,Bike,
+02/12/2026,13:48,Manhattan,10013,"    (40.72199, -74.004295)",1,0,0,0,1,0,0,0,Unspecified,4878700,Bike,Sedan
+02/21/2026,21:17,Manhattan,10019,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Unspecified,4880417,Bike,
+03/16/2026,07:00,Manhattan,10011,"    (40.740444, -73.99459)",1,0,0,0,1,0,0,0,Unspecified,4885619,Bike,Sedan
+03/19/2026,09:15,Manhattan,10010,"    (40.74303, -73.98916)",1,0,0,0,1,0,0,0,Unspecified,4887733,Bike,
+03/26/2026,20:15,Manhattan,10036,"    (40.758923, -73.98418)",1,0,0,0,1,0,0,0,Unspecified,4888036,Bike,Taxi
+03/26/2026,13:00,Manhattan,10003,"    (40.727688, -73.993546)",1,0,0,0,1,0,0,0,Unspecified,4887881,Bike,Bike
+03/29/2026,15:00,Manhattan,10014,"    (40.735962, -74.00513)",1,0,0,0,1,0,0,0,Unspecified,4889206,Bike,
+04/03/2026,14:00,Manhattan,10003,"    (40.73792, -73.992226)",1,0,0,0,1,0,0,0,Unspecified,4889723,Bike,
+04/04/2026,17:37,Manhattan,10000,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,Unspecified,4889874,Bike,E-Bike
+04/02/2026,08:17,Manhattan,10003,"    (40.73398, -73.990944)",1,0,0,0,1,0,0,0,Unspecified,4890134,Bike,
+04/05/2026,00:23,Manhattan,10022,"    (40.753796, -73.96645)",1,0,0,0,1,0,0,0,Unspecified,4889661,Bike,Station Wagon/Sport Utility Vehicle
+01/16/2026,19:05,Manhattan,,"    (40.704742, -73.98932)",2,0,0,0,2,0,0,0,Unspecified,4872981,Bike,Bike
+03/28/2026,02:50,Manhattan,,"    (40.76417, -73.98473)",1,0,0,0,1,0,0,0,Unspecified,4890461,Bike,
+01/12/2026,10:50,Manhattan,10038,"    (40.706375, -74.00569)",1,0,0,0,1,0,0,0,Unspecified,4871688,Box Truck,Bike
+03/19/2026,18:00,Manhattan,10001,"    (40.750317, -73.99111)",1,0,0,0,1,0,0,0,Unspecified,4886619,Bus,Bike
+01/05/2026,20:06,Manhattan,10035,"    (40.79668, -73.93491)",1,0,0,0,1,0,0,0,Unspecified,4870217,E-Bike,
+02/02/2026,12:45,Manhattan,10016,"    (40.74701, -73.97719)",1,0,0,0,1,0,0,0,Unspecified,4875956,E-Bike,Sedan
+03/27/2026,00:00,Manhattan,10025,"    (40.79725, -73.96804)",1,0,0,0,1,0,0,0,Unspecified,4887933,E-Bike,
+02/13/2026,14:22,Manhattan,,"    (40.773697, -73.98893)",1,0,0,0,1,0,0,0,Unspecified,4879060,E-Bike,Sedan
+02/17/2026,01:58,Manhattan,,"    (40.770294, -73.975876)",1,0,0,0,1,0,0,0,Unspecified,4879695,E-Bike,
+03/31/2026,22:18,Manhattan,10037,"    (40.81021, -73.9395)",1,0,0,0,1,0,0,0,Unspecified,4889129,Garbage or Refuse,Bike
+02/18/2026,17:40,Manhattan,10012,"    (40.721794, -73.999855)",1,0,0,0,1,0,0,0,Unspecified,4880026,MTA Bus,E-Bike
+01/05/2026,21:52,Manhattan,10030,"    (40.817856, -73.94767)",1,0,0,0,1,0,0,0,Unspecified,4869678,Sedan,Bike
+01/19/2026,15:38,Manhattan,10003,"    (40.73733, -73.99265)",1,0,0,0,1,0,0,0,Unspecified,4872734,Sedan,Bike
+03/02/2026,08:12,Manhattan,10002,"    (40.720234, -73.984474)",1,0,0,0,1,0,0,0,Unspecified,4882526,Sedan,Bike
+03/12/2026,10:39,Manhattan,10022,"    (40.756134, -73.967606)",1,0,0,0,1,0,0,0,Unspecified,4884707,Sedan,Bike
+03/14/2026,00:00,Manhattan,10021,"    (40.771065, -73.95964)",1,0,0,0,1,0,0,0,Unspecified,4884950,Sedan,Bike
+03/26/2026,14:15,Manhattan,10036,"    (40.758877, -73.98357)",1,0,0,0,1,0,0,0,Unspecified,4888024,Sedan,Bike
+02/13/2026,07:49,Manhattan,,"    (40.798576, -73.97315)",1,0,0,0,1,0,0,0,Unspecified,4878741,Sedan,E-Bike
+01/20/2026,18:13,Manhattan,10017,"    (40.752205, -73.97018)",1,0,0,0,1,0,0,0,Unspecified,4872977,Station Wagon/Sport Utility Vehicle,E-Bike
+02/06/2026,10:15,Manhattan,10029,"    (40.791435, -73.952)",1,0,0,0,1,0,0,0,Unspecified,4877055,Station Wagon/Sport Utility Vehicle,E-Bike
+02/27/2026,07:58,Manhattan,10016,"    (40.751575, -73.98228)",1,0,0,0,1,0,0,0,Unspecified,4882044,Station Wagon/Sport Utility Vehicle,E-Bike
+03/02/2026,13:17,Manhattan,10281,"    (40.71157, -74.015785)",1,0,0,0,1,0,0,0,Unspecified,4882916,Station Wagon/Sport Utility Vehicle,Bike
+03/14/2026,12:40,Manhattan,10035,"    (40.807278, -73.94057)",1,0,0,0,1,0,0,0,Unspecified,4885188,Station Wagon/Sport Utility Vehicle,Bike
+03/29/2026,20:40,Manhattan,10022,"    (40.761677, -73.9704)",1,0,0,0,1,0,0,0,Unspecified,4888944,Station Wagon/Sport Utility Vehicle,E-Bike
+02/14/2026,22:00,Manhattan,10019,"    (40.7624, -73.98415)",1,0,0,0,1,0,0,0,Unspecified,4879295,Taxi,Bike
+02/22/2026,13:13,Manhattan,10016,"    (40.743896, -73.97801)",1,0,0,0,1,0,0,0,Unspecified,4880866,Taxi,Bike
+03/03/2026,20:16,Manhattan,10022,"    (40.758537, -73.9772)",1,0,0,0,1,0,0,0,Unspecified,4882825,Taxi,Bike
+03/06/2026,18:30,Manhattan,10016,"    (40.741642, -73.978165)",1,0,0,0,1,0,0,0,Unspecified,4884072,Taxi,Bike
+03/13/2026,17:20,Manhattan,10012,"    (40.72308, -73.99665)",1,0,0,0,1,0,0,0,Unspecified,4885136,Taxi,Bike
+03/31/2026,13:48,Manhattan,10001,"    (40.749104, -73.992004)",1,0,0,0,1,0,0,0,Unspecified,4889089,Taxi,Bike
+01/07/2026,13:57,Manhattan,10036,"    (40.75974, -73.98367)",1,0,0,0,1,0,0,0,Unspecified,4870047,Van,Bike
+02/06/2026,17:43,Manhattan,,,1,0,0,0,1,0,0,0,Unspecified,4877099,Van,Bike
+01/11/2026,11:01,Queens,11101,"    (40.743645, -73.940445)",1,0,0,0,1,0,0,0,Unspecified,4870846,Bike,
+02/07/2026,16:10,Queens,11436,"    (40.680027, -73.79462)",1,0,0,0,1,0,0,0,Unspecified,4878391,Bike,
+02/18/2026,18:45,Queens,11354,"    (40.763504, -73.830986)",1,0,0,0,1,0,0,0,Unspecified,4880204,Bike,Sedan
+03/11/2026,18:02,Queens,11434,"    (40.677322, -73.790955)",1,0,0,0,1,0,0,0,Unspecified,4885327,Bike,Taxi
+04/06/2026,14:30,Queens,11372,"    (40.756943, -73.872215)",1,0,0,0,1,0,0,0,Unspecified,4890341,Bike,
+03/29/2026,14:50,Queens,,"    (40.679474, -73.76072)",1,0,0,0,1,0,0,0,Unspecified,4889097,Bike,
+02/17/2026,19:02,Queens,,"    (40.680164, -73.89319)",1,0,0,0,1,0,0,0,Unspecified,4879830,Box Truck,Bike
+03/24/2026,08:00,Queens,,"    (40.693123, -73.77278)",1,0,0,0,1,0,0,0,Unspecified,4887526,Bus,Bike
+03/15/2026,21:39,Queens,,"    (40.63768, -73.88372)",1,0,0,0,1,0,0,0,Unspecified,4885457,Convertible,Bike
+03/31/2026,17:30,Queens,11356,"    (40.778618, -73.83886)",1,0,0,0,1,0,0,0,Unspecified,4888931,E-Bike,
+01/20/2026,10:02,Queens,11358,"    (40.760616, -73.80584)",0,1,0,0,0,1,0,0,Unspecified,4872907,Pick-up Truck,Bike
+02/20/2026,19:00,Queens,11365,"    (40.732025, -73.807014)",1,0,0,0,1,0,0,0,Unspecified,4880279,Pick-up Truck,Bike
+03/10/2026,11:24,Queens,11368,"    (40.744934, -73.86791)",1,0,0,0,1,0,0,0,Unspecified,4884729,Pick-up Truck,Bike
+01/07/2026,06:32,Queens,11691,"    (40.606915, -73.752914)",1,0,0,0,1,0,0,0,Unspecified,4869939,Sedan,Bike
+01/08/2026,19:20,Queens,11373,"    (40.73655, -73.88023)",1,0,0,0,1,0,0,0,Unspecified,4872598,Sedan,Bike
+01/30/2026,19:40,Queens,11103,"    (40.765656, -73.91842)",1,0,0,0,1,0,0,0,Unspecified,4875420,Sedan,Bike
+01/31/2026,19:00,Queens,11368,"    (40.743465, -73.85484)",1,0,0,0,1,0,0,0,Unspecified,4875697,Sedan,Bike
+02/18/2026,08:40,Queens,11368,"    (40.749283, -73.86966)",1,0,0,0,1,0,0,0,Unspecified,4879883,Sedan,Bike
+02/18/2026,18:15,Queens,11375,"    (40.71047, -73.850914)",1,0,0,0,1,0,0,0,Unspecified,4881194,Sedan,E-Bike
+03/11/2026,13:47,Queens,11433,"    (40.68984, -73.78633)",1,0,0,0,1,0,0,0,Unspecified,4884563,Sedan,Bike
+03/25/2026,14:50,Queens,11354,"    (40.773106, -73.84565)",1,0,0,0,1,0,0,0,Unspecified,4887614,Sedan,E-Bike
+03/27/2026,23:40,Queens,11372,"    (40.75218, -73.88097)",2,0,0,0,2,0,0,0,Unspecified,4887973,Sedan,Bike
+04/02/2026,15:45,Queens,11368,"    (40.7456, -73.86809)",1,0,0,0,1,0,0,0,Unspecified,4890009,Sedan,Bike
+02/20/2026,22:06,Queens,,"    (40.735657, -73.851)",1,0,0,0,1,0,0,0,Unspecified,4880735,Sedan,Bike
+03/01/2026,14:57,Queens,,"    (40.709026, -73.79819)",1,0,0,0,1,0,0,0,Unspecified,4882303,Sedan,E-Bike
+03/20/2026,18:19,Queens,,"    (40.680454, -73.875854)",1,0,0,0,1,0,0,0,Unspecified,4886804,Sedan,Bike
+03/23/2026,14:46,Queens,,"    (40.703865, -73.76507)",1,0,0,0,1,0,0,0,Unspecified,4887524,Sedan,E-Bike
+02/21/2026,18:08,Queens,11354,"    (40.76209, -73.83163)",1,0,0,0,1,0,0,0,Unspecified,4880426,Station Wagon/Sport Utility Vehicle,Bike
+03/07/2026,11:03,Queens,11691,"    (40.59748, -73.75678)",1,0,0,0,1,0,0,0,Unspecified,4883534,Station Wagon/Sport Utility Vehicle,Bike
+01/12/2026,17:22,Queens,11365,"    (40.748035, -73.79679)",1,0,0,0,1,0,0,0,Unspecified,4871257,Station Wagon/Sport Utility Vehicle,Bike
+02/06/2026,20:17,Queens,11691,"    (40.603867, -73.756096)",1,0,0,0,1,0,0,0,Unspecified,4877110,Station Wagon/Sport Utility Vehicle,Bike
+02/14/2026,11:00,Queens,11373,"    (40.733498, -73.87037)",1,0,0,0,1,0,0,0,Unspecified,4879333,Station Wagon/Sport Utility Vehicle,Bike
+03/09/2026,16:40,Queens,11420,"    (40.681274, -73.811615)",1,0,0,0,1,0,0,0,Unspecified,4884155,Station Wagon/Sport Utility Vehicle,Bike
+01/29/2026,17:20,Queens,,"    (40.640644, -73.743385)",1,0,0,0,1,0,0,0,Unspecified,4874804,Station Wagon/Sport Utility Vehicle,Bike
+02/22/2026,01:37,Queens,,"    (40.717354, -73.79803)",1,0,0,0,1,0,0,0,Unspecified,4880486,Station Wagon/Sport Utility Vehicle,Bike
+03/20/2026,10:40,Queens,,"    (40.60403, -73.95229)",1,0,0,0,1,0,0,0,Unspecified,4886356,Station Wagon/Sport Utility Vehicle,
+03/19/2026,00:00,Staten Island,,"    (40.6453, -74.10465)",1,0,0,0,1,0,0,0,Unspecified,4886408,E-Bike,Sedan
+03/16/2026,19:34,Bronx,10471,"    (40.898594, -73.89709)",1,0,0,0,1,0,0,0,Using On Board Navigation Device,4885648,Station Wagon/Sport Utility Vehicle,Bike
+02/11/2026,17:50,Bronx,10459,"    (40.82015, -73.90123)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4878464,Sedan,E-Bike
+03/28/2026,00:00,Bronx,,"    (40.829777, -73.85054)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4888537,Sedan,Bike
+03/30/2026,11:30,Brooklyn,11233,"    (40.681377, -73.92277)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4888704,Bike,
+03/18/2026,15:45,Brooklyn,11221,"    (40.694305, -73.91851)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4886089,Station Wagon/Sport Utility Vehicle,Bike
+02/15/2026,18:10,Manhattan,10000,"    (0.0, 0.0)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4879694,Bike,
+03/28/2026,00:00,Manhattan,10029,"    (40.791557, -73.93865)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4889033,E-Bike,Sedan
+02/04/2026,21:29,Manhattan,10019,"    (40.764507, -73.981895)",2,0,0,0,2,0,0,0,View Obstructed/Limited,4878139,Sedan,Bike
+03/09/2026,16:30,Manhattan,10010,"    (40.743263, -73.98642)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4884292,Station Wagon/Sport Utility Vehicle,Bike
+03/23/2026,08:59,Manhattan,10075,"    (40.772964, -73.95597)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4887379,Station Wagon/Sport Utility Vehicle,Bike
+03/25/2026,11:36,Manhattan,10017,"    (40.753242, -73.96661)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4887475,Station Wagon/Sport Utility Vehicle,Bike
+03/27/2026,23:30,Manhattan,10001,"    (40.74529, -73.98873)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4888302,Station Wagon/Sport Utility Vehicle,Bike
+03/25/2026,12:05,Manhattan,10038,"    (40.70909, -74.00551)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4887999,Station Wagon/Sport Utility Vehicle,Bike
+02/10/2026,16:00,Queens,11374,"    (40.7302, -73.85428)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4878137,E-Bike,Sedan
+03/24/2026,19:33,Queens,11373,"    (40.734875, -73.88211)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4887409,Sedan,Bike
+03/13/2026,15:20,Queens,11103,"    (40.765137, -73.90423)",1,0,0,0,1,0,0,0,View Obstructed/Limited,4884890,Station Wagon/Sport Utility Vehicle,Bike

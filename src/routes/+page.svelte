@@ -1,122 +1,213 @@
-<!--
-@component
-This is your page!
--->
 <script>
-  // Import all the news furniture components
-  import ArticleHeader from '$lib/components/ArticleHeader.svelte';
-  import ArticleBody from '$lib/components/ArticleBody.svelte';
-  import Blockquote from '$lib/components/Blockquote.svelte';
-  import Image from '$lib/components/Image.svelte';
-  import RelatedLinks from '$lib/components/RelatedLinks.svelte';
+  import { base } from '$app/paths';
+  import DatabaseHeader from '$lib/components/DatabaseHeader.svelte';
+  import RankingList from '$lib/components/RankingList.svelte';
+  import RankingCard from '$lib/components/RankingCard.svelte';
+  import SearchInput from '$lib/components/SearchInput.svelte';
+  import MethodologyBox from '$lib/components/MethodologyBox.svelte';
+  import RightImage from '$lib/components/RightImage.svelte';
 
-  // Article metadata
-  let headline = 'Become a force for good. Join our next class.';
-  let byline = 'NYCity News Service';
-  let pubDate = '2026-01-31';
+  let { data } = $props();
 
-  // Related stories
-  const relatedStories = [
-    {
-      headline:
-        "How America's top news organizations escape rigid publishing systems to design beautiful data-driven stories on deadline.",
-      href: 'https://palewi.re/docs/coding-the-news/',
-    },
-    {
-      headline:
-        'How to install, configure and use Visual Studio Code, GitHub and Copilot',
-      href: 'https://palewi.re/docs/coding-the-news/scripts/week-1/',
-    },
-    {
-      headline: 'How to publish a website with Node.JS and GitHub Actions',
-      href: 'https://palewi.re/docs/coding-the-news/scripts/week-2/',
-    },
-  ];
+  let search = $state('');
+
+  let filtered = $derived(
+    data.crashes
+      .filter((crash) => {
+        const searchLower = search.toLowerCase();
+        const [month, day, year] = String(crash['CRASH DATE'] || '').split('/');
+        const monthNames = ['', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+        
+        // Search by borough
+        if ((crash.BOROUGH || '').toLowerCase().includes(searchLower)) return true;
+        
+        // Search by full date (MM/DD/YYYY or partial like "02/17" or "2026")
+        if ((crash['CRASH DATE'] || '').includes(search)) return true;
+        
+        // Search by month name or number with day (e.g., "January 1", "01/01", "01 01")
+        const monthName = monthNames[Number(month)] || '';
+        const searchParts = searchLower.split(/[\s\/]+/); // Split by space or slash
+        
+        if (searchParts.length === 2) {
+          const [monthPart, dayPart] = searchParts;
+          const monthMatch = monthName.includes(monthPart) || month.padStart(2, '0').includes(monthPart.padStart(2, '0'));
+          const dayMatch = day.padStart(2, '0').includes(dayPart.padStart(2, '0'));
+          if (monthMatch && dayMatch) return true;
+        }
+        
+        // Single month name or number
+        if (monthName.includes(searchLower) || month?.padStart(2, '0').includes(search.padStart(2, '0'))) return true;
+        
+        return false;
+      })
+      .sort((a, b) => {
+        const toTimestamp = (row) => {
+          const [month, day, year] = String(row['CRASH DATE'] || '')
+            .split('/')
+            .map(Number);
+
+          const [hour = '0', minute = '0'] = String(row['CRASH TIME'] || '').split(':');
+
+          if (!month || !day || !year) return 0;
+
+          return Date.UTC(year, month - 1, day, Number(hour), Number(minute));
+        };
+
+        return toTimestamp(b) - toTimestamp(a);
+      })
+      .slice(0, 20)
+  )
+
+  function formatToAmPm(time24) {
+    const [h = '00', m = '00'] = String(time24 || '').split(':');
+    const hours = Number(h);
+    const mins = Number(m);
+
+    if (Number.isNaN(hours) || Number.isNaN(mins)) return time24 || '';
+
+    const suffix = hours >= 12 ? 'PM' : 'AM';
+    const hour12 = hours % 12 || 12;
+    return `${hour12}:${String(mins).padStart(2, '0')} ${suffix}`;
+  }
+
+  function getInjuryLabel(crash) {
+  const killed = Number(crash['NUMBER OF CYCLIST KILLED']);
+  const injured = Number(crash['NUMBER OF CYCLIST INJURED']);
+  
+  if (killed > 0) {
+    return killed > 1 ? 'killed' : 'killed';
+  } else {
+    return injured > 1 ? 'injuries' : 'injury';
+  }
+}
+
+function getTotalCyclistCasualties(crashes) {
+  let totalInjured = 0;
+  let totalKilled = 0;
+  
+  crashes.forEach(crash => {
+    totalInjured += Number(crash['NUMBER OF CYCLIST INJURED']) || 0;
+    totalKilled += Number(crash['NUMBER OF CYCLIST KILLED']) || 0;
+  });
+  
+  return { totalInjured, totalKilled, total: totalInjured + totalKilled };
+}
+
+function getBoroughWithMostInjuries(crashes) {
+  const boroughTotals = {};
+  
+  crashes.forEach(crash => {
+    const borough = crash.BOROUGH || 'Unknown';
+    const injured = Number(crash['NUMBER OF CYCLIST INJURED']) || 0;
+    boroughTotals[borough] = (boroughTotals[borough] || 0) + injured;
+  });
+  
+  return Object.entries(boroughTotals).sort((a, b) => b[1] - a[1])[0];
+}
+
+function getTopCauses(crashes, limit = 3) {
+  const causeTotals = {};
+  
+  crashes.forEach(crash => {
+    const cause = crash['CONTRIBUTING FACTOR VEHICLE 1'] || 'Unknown';
+    const injured = Number(crash['NUMBER OF CYCLIST INJURED']) || 0;
+    causeTotals[cause] = (causeTotals[cause] || 0) + injured;
+  });
+  
+  return Object.entries(causeTotals)
+    .sort((a, b) => b[1] - a[1])
+    .filter(([cause]) => cause !== 'Unspecified')
+    .slice(0, limit)
+    .map(([cause, count]) => ({ cause, count }));
+}
+
+const [topBorough, injuries] = getBoroughWithMostInjuries(data.crashes);
+const topCauses = getTopCauses(data.crashes, 3);
+const { totalInjured, totalKilled, total } = getTotalCyclistCasualties(data.crashes);
+
 </script>
 
-<!-- This sets the page title in the browser tab -->
-<svelte:head>
-  <title>{headline} | NYCity News Service</title>
-  <meta
-    name="description"
-    content="At the Craig Newmark Graduate School of Journalism at the City University of New York, change is in our DNA. That comes of being born in 2006, as the digital revolution was transforming our profession in ways none of us could have imagined."
-  />
-</svelte:head>
+<DatabaseHeader
+  kicker="NYC Cyclist Injuries in 2026"
+  headline="Cyclists Injured in Vehicle Collisions This Year"
+  description="A database of this year's NYC cyclist injuries and deaths caused by vehicle collisions."
+  byline="By Sidney Slon"
+  date="UPDATED: April 12, 2026"
+  bgColor="var(--color-light-gray)"
+  >
+</DatabaseHeader>
 
-<!-- Your page content goes here -->
 <div class="container">
-  <!-- Article Header: Headline, byline, and publication date -->
-  <ArticleHeader {headline} {byline} {pubDate} />
 
-  <!-- Lead Image: Animated gif of students at the journalism school -->
-  <Image
-    src="/example-photo.gif"
-    alt="The Craig Newmark Graduate School of Journalism is at 219 West 40th Street in Midtown Manhattan."
-    caption="The Craig Newmark Graduate School of Journalism is at 219 West 40th Street in Midtown Manhattan."
-    credit="Craig Newmark Graduate School of Journalism"
-  />
+<RightImage
+imgSrc = 'noun-bike-helmet-7820896.png'
+altText = 'bike helmet by Dedy Dwi Qoirudin from Noun Project (CC BY 3.0)'
+/>
 
-  <!-- Article Body: The main story text with proper typography -->
-  <ArticleBody>
-    <p>
-      At the Craig Newmark Graduate School of Journalism at the City University
-      of New York, change is in our DNA. That comes of being born in 2006, as
-      the digital revolution was transforming our profession in ways none of us
-      could have imagined.
-    </p>
-
-    <p>
-      We fashioned a school to teach the latest storytelling, entrepreneurial,
-      and technological skills alongside reporting, writing, and ethics. Beyond
-      that, we’ve crafted a culture that spurns complacency, that isn’t afraid
-      to pivot before the ground under us shifts.
-    </p>
-
-    <p>
-      Our mission is to serve the public interest – by training new journalists
-      from varied economic, racial, and cultural backgrounds who will bring
-      much-needed diversity to newsrooms, by helping mid-career journalists
-      retool their skills, and by partnering with other media organizations to
-      find new paths to excellence.
-    </p>
-
-    <Blockquote attribution="Craig Newmark Graduate School of Journalism">
-      <p>We invite you to be part of our world.</p>
-    </Blockquote>
-
-    <p>
-      Our low tuition rates, along with the added backing of private donors,
-      allow candidates for our master’s degrees in journalism and engagement
-      journalism to receive a world-class education at an affordable price. We
-      also offer a unique bilingual master’s in journalism for students fluent
-      in English and Spanish.
-    </p>
-
-    <p>
-      Our three media centers provide research, training, thought leadership,
-      industry meet-ups, and financial support for quality journalistic work.
-    </p>
-
-    <p>
-      We also offer a robust professional education program through regular
-      evening and weekend workshops. And we support in-depth reporting projects
-      of professional journalists through fellowship grants.
-    </p>
-
-    <p>
-      Classes are led by accomplished full-time faculty and adjuncts, who tap
-      their networks to help students and graduates find internships, freelance
-      opportunities and — the ultimate prize — jobs.
-    </p>
-
-    <p>
-      At a time when our profession is reeling from financial pressures and lack
-      of trust, the Newmark Graduate School of Journalism is committed to
-      producing the next generation of skilled, ethically minded, and diverse
-      journalists.
-    </p>
-  </ArticleBody>
-
-  <!-- Related Stories: Links to other articles -->
-  <RelatedLinks title="Related Stories" links={relatedStories} />
+<div class="summary">
+<h3><strong>A quick look at the numbers:</strong></h3>
+<p>In 2026 so far, there have been <span class="accent"><strong>{totalInjured}</strong></span> cyclist injuries and <span class="accent"><strong>{totalKilled}</strong></span> cyclist deaths from vehicle collisions, totaling <span class="accent"><strong>{total}</strong></span> casualties.</p>
+<p><span class="accent"><strong>{topBorough}</strong></span> has reported the most cyclist injuries this year ({injuries} injuries).</p>
+<br>
+<p>The top three reported causes of cyclist collisions this year are:</p>
+<ul class="no-bullets">
+  {#each topCauses as { cause, count }, i}
+    <li><span class="accent"><strong>{cause}</strong></span> ({count} injuries)</li>
+  {/each}
+</ul>
 </div>
+<br>
+<div class="search-wrapper">
+  <SearchInput bind:value={search} placeholder="Search by borough, month or a specific date..." />
+</div>
+
+<RankingList title={search ? `Showing ${filtered.length} most recent collisions` : 'Recent Collisions By Date'}>
+  {#each filtered as crash (crash['COLLISION_ID'])}
+    <RankingCard
+      rank={crash['CRASH DATE']}
+      title={formatToAmPm(crash['CRASH TIME'])}
+      href="{base}/collision/{crash['COLLISION_ID']}"
+      description={`Location: ${crash['BOROUGH']}`}
+      value={`${crash['NUMBER OF CYCLIST KILLED'] > 0 ? crash['NUMBER OF CYCLIST KILLED'] : crash['NUMBER OF CYCLIST INJURED']}`}
+      valueLabel={getInjuryLabel(crash)}
+      />
+  {/each}
+</RankingList>
+
+<MethodologyBox>
+  <p>
+    The data on this page comes from the New York City Police Department's Motor Vehicle Collisions dataset,
+    <a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data" target="_blank"> which is updated regularly</a>.
+  </p>
+  <p>The collisions published by the city were filtered to include only those involving at least one injured or killed cyclist. The results were also filtered to include only crashes on or after January 1st in 2026. The data is as current as April 12, 2026.</p>
+  <p>The code that created this dataset explorer is available as open source on <a href="https://github.com/sidneyslon38/database-explorer-slon" target="_blank">GitHub</a>.</p>
+</MethodologyBox>
+</div> 
+
+<style lang="scss">
+
+  .container {
+    max-width: var(--max-width-wide);
+    margin: 0 auto;
+  }
+
+  .summary {
+    margin-bottom: var(--spacing-lg);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+  }
+
+  .search-wrapper {
+    max-width: 600px;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.accent {
+  color: var(--db-color-accent);
+}
+</style>

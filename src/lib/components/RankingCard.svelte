@@ -79,11 +79,11 @@ RankingCard.svelte — A horizontal card showing rank, optional image, title, an
 
   .rank {
     flex-shrink: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 600;
     min-width: 2ch;
     text-align: center;
-    color: var(--color-accent, #003da5);
+    color: var(--db-color-accent);
   }
 
   .thumbnail {
@@ -104,6 +104,7 @@ RankingCard.svelte — A horizontal card showing rank, optional image, title, an
   .content {
     flex: 1;
     min-width: 0;
+
   }
 
   .title {
